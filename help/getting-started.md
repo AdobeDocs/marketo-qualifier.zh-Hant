@@ -37,7 +37,7 @@ Adobe為您的組織布建Marketo限定詞後，[!DNL Marketo]系統管理員必
 
 Adobe Admin Console中的使用者群組可用來控制對Marketo限定詞的存取權。 必須先建立兩個群組，使用者才能登入。
 
-如需設定群組的相關資訊，請參閱[Adobe Admin Console檔案](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
+如需設定群組的相關資訊，請參閱[Adobe Admin Console檔案](https://helpx.adobe.com/tw/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
