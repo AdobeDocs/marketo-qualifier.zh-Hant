@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1383'
 ht-degree: 1%
 ---
 
@@ -91,7 +91,7 @@ Marketo限定詞只會讀取其所傳送之電子郵件的回覆，而不會讀�
 
 ### 連線或編輯連線
 
-1. 在CRM卡片上，選取&#x200B;**[!UICONTROL 連線]**，或選取&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 編輯組態]**&#x200B;以更新現有的連線。
+1. 若要建立連線，請在CRM卡片上選取&#x200B;**[!UICONTROL 連線]**。 若要更新現有的連線，請選取&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 編輯組態]**。
 1. 輸入您CRM管理員的認證。
 
    >[!BEGINTABS]
@@ -119,7 +119,7 @@ Marketo限定詞只會讀取其所傳送之電子郵件的回覆，而不會讀�
 ### 中斷連線
 
 1. 在連線的CRM卡片上，選取&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 中斷連線]**。
-1. 檢閱警告，並選取&#x200B;**[!UICONTROL 中斷連線]**&#x200B;以進行確認。
+1. 檢閱警告。 若要確認，請選取&#x200B;**[!UICONTROL 中斷連線]**。
 
 >[!WARNING]
 >
@@ -146,7 +146,7 @@ Marketo限定詞只會讀取其所傳送之電子郵件的回覆，而不會讀�
    | **[!UICONTROL 機會]** | 帳戶的機會詳細資料。 |
 
 1. 輸入&#x200B;**[!UICONTROL 區段名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。 然後，選取&#x200B;**[!UICONTROL 下一步]**。
-1. 在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;步驟中，搜尋並選取要匯入的CRM欄位。 然後，選取&#x200B;**[!UICONTROL 下一步]**。 每個欄位會顯示其&#x200B;**[!UICONTROL 顯示名稱]**、**[!UICONTROL 欄位名稱]**&#x200B;和&#x200B;**[!UICONTROL 資料型別]**。
+1. 在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;步驟中，若要匯入CRM欄位，請搜尋並選取它們。 然後，若要繼續，請選取&#x200B;**[!UICONTROL 下一步]**。 每個欄位會顯示其&#x200B;**[!UICONTROL 顯示名稱]**、**[!UICONTROL 欄位名稱]**&#x200B;和&#x200B;**[!UICONTROL 資料型別]**。
 1. 針對&#x200B;**[!UICONTROL 潛在客戶]**、**[!UICONTROL 連絡人]**&#x200B;及&#x200B;**[!UICONTROL 商機]**&#x200B;區段，針對[潛在客戶](prospects.md)清單上代表所需的每個欄位，開啟&#x200B;**[!UICONTROL 可篩選]**。
 
    如果欄位的資料型別不支援篩選，或欄位已用於其他區段中，則無法將其設為可篩選。
@@ -192,16 +192,16 @@ Activity Sync會將Marketo Qualifier外聯活動寫入您的CRM和Marketo。 已
 
 設定和範本會自動儲存。
 
-當潛在客戶選取連結時，Marketo限定詞會停止向該潛在客戶傳送電子郵件，並將選擇退出狀態同步到連線的CRM。
+當潛在客戶選取連結時，Marketo Qualifier會停止向該潛在客戶傳送電子郵件，並將選擇退出狀態同步到連線的CRM。
 
 ## CRM存取範圍
 
-Marketo限定詞會讀取所需的CRM實體，並僅回寫定義的一組資料：
+Marketo Qualifier會讀取所需的CRM實體，並只回寫已定義的資料集：
 
 * **讀取** — 使用者、連絡人、擁有者對應、潛在客戶、帳戶、商機及活動。
 * **寫入** — 記錄外展活動（當[活動同步](#configure-activity-sync-outbound-mapping)開啟時）和選擇退出狀態。
 
-您的CRM管理員已在Salesforce或Dynamics中準備API存取。 Marketo限定詞管理員接著會連線CRM、對應輸入欄位，並選擇是否同步活動。 初始連線需要唯讀存取權。 活動同步和選擇退出回寫需要對應的寫入許可權。
+您的CRM管理員已在Salesforce或Dynamics中準備API存取。 Marketo Qualifier管理員接著會連線CRM、對應傳入欄位，並選擇是否同步活動。 初始連線需要唯讀存取權。 活動同步和選擇退出回寫需要對應的寫入許可權。
 
 >[!MORELIKETHIS]
 >

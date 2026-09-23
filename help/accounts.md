@@ -1,5 +1,5 @@
 ---
-title: Adobe Marketo中的帳戶限定詞
+title: Adobe Marketo Qualifier中的帳戶
 description: 瞭解如何在Adobe Marketo Qualifier中檢閱客戶情報（包括AI研究、最近的新聞、機會和最熱門的參與連絡人），以排定外聯的優先順序。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '647'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![具有「人員」和「帳戶」索引標籤的「潛在客戶」詳細資料頁面](./assets/account-home.png){width="800" zoomable="yes"}
 
-Adobe Marketo限定詞會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相關聯的每個潛在客戶都可以使用相同的帳戶檢視。 如果Marketo限定詞無法比對帳戶，索引標籤會顯示&#x200B;_找不到帳戶_。
+Adobe Marketo Qualifier會從潛在客戶的CRM記錄中識別帳戶。 與該帳戶相關聯的每個潛在客戶都可以使用相同的帳戶檢視。 如果Marketo Qualifier無法比對帳戶，索引標籤會顯示&#x200B;_找不到帳戶_。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Adobe Marketo限定詞會從潛在客戶的CRM記錄中識別帳戶。 與該帳
 標籤頂端的概觀卡片會識別帳戶並彙總其值：
 
 * 帳戶名稱和區域
-* **年度週期性收入(ARR)** — 所有使用中訂閱的年度週期性收入。 選取「**[!UICONTROL 檢視全部]**」以在&#x200B;**[!UICONTROL 年度遞回收入]**&#x200B;對話方塊中依產品檢視ARR。
+* **年度週期性收入(ARR)** — 所有使用中訂閱的年度週期性收入。 若要在&#x200B;**[!UICONTROL 年度循環收入]**&#x200B;對話方塊中依產品檢視ARR，請選取&#x200B;**[!UICONTROL 檢視全部]**。
 * 帳戶統計資料，包括未結機會和聯絡人計數以及管道值
 
 ### 帳戶總覽摘要
@@ -63,7 +63,7 @@ Adobe Marketo限定詞會從潛在客戶的CRM記錄中識別帳戶。 與該帳
 
 | 檢視 | 它顯示的內容 |
 | --- | --- |
-| **[!UICONTROL 機會]** | 開啟連結至帳戶的機會，每個機會都有關鍵欄位。 選取&#x200B;**[!UICONTROL 全部檢視]**&#x200B;以檢視資料表中的完整清單。 當管理員讓這些欄位可篩選時，機會詳細資訊（例如，階段、型別和關閉日期）也可用來篩選&#x200B;**[!UICONTROL 我的機會聯絡人]**&#x200B;中的帳戶聯絡人。 |
+| **[!UICONTROL 機會]** | 開啟連結至帳戶的機會，每個機會都有關鍵欄位。 若要在表格中檢視完整清單，請選取&#x200B;**[!UICONTROL 全部檢視]**。 當管理員讓這些欄位可篩選時，機會詳細資訊（例如，階段、型別和關閉日期）也可用來篩選&#x200B;**[!UICONTROL 我的機會聯絡人]**&#x200B;中的帳戶聯絡人。 |
 | **[!UICONTROL 最上層成員]** | 帳戶參與次數最多的聯絡人（依參與度排名）。 每個聯絡人都會顯示其職稱、電子郵件地址、參與分數和緊急程度指標。 |
 | **[!UICONTROL 意圖資料]** | 為帳戶購買意向訊號，例如帳戶正在研究的產品和主題。 |
 | **[!UICONTROL 帳戶團隊成員]** | 指派至帳戶的人員，包括其電子郵件、職稱、區域和產品群組。 |
@@ -78,7 +78,7 @@ Adobe Marketo限定詞會從潛在客戶的CRM記錄中識別帳戶。 與該帳
 
 **[!UICONTROL 帳戶研究]**&#x200B;索引標籤包含三個區域：
 
-* **[!UICONTROL 研究類別]** — 研究主題。 選取類別，以在中心窗格中檢視其研究。
+* **[!UICONTROL 研究類別]** — 研究主題。 若要在中心窗格中檢視類別的研究，請選取類別。
 * **研究內容**—AI產生的研究卡片，依類別分組。 卡片可包含來源網域，以及首次和上次偵測訊號的日期。
 * **[!UICONTROL 最近新聞]** — 帳戶的最新新聞，包括日期、標籤和來源連結。
 

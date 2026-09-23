@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo限定詞中的任務
-description: 瞭解如何在Adobe Marketo Qualifier工作佇列中處理手動外聯工作，並審查代理程式建議的潛在客戶。
+title: '[!DNL Adobe Marketo Qualifier]中的任務'
+description: 瞭解如何在[!DNL Adobe Marketo Qualifier]工作佇列中處理手動外展工作，並檢閱代理程式建議的潛在客戶。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
@@ -12,9 +12,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1086'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * **[!UICONTROL LinkedIn InMail]** — 在順序達到LinkedIn InMail步驟時建立。 工作面板會顯示要從LinkedIn複製和傳送的內容。 展開&#x200B;**[!UICONTROL AI基本原則]**&#x200B;以檢閱基本原則。
 
-* **[!UICONTROL 電子郵件評論]** — 在Adobe Marketo限定詞產生潛在客戶個人化電子郵件之後建立。 選取&#x200B;**[!UICONTROL 檢閱電子郵件]**，以在開始外展之前檢閱及核准草稿。 請參閱[檢閱並調整產生的電子郵件](outbound-workflows.md#review-and-refine-generated-emails)。
+* **[!UICONTROL 電子郵件評論]** — 建立於[!DNL Adobe Marketo Qualifier]產生潛在客戶個人化電子郵件之後。 若要在外聯開始前檢閱及核准草稿，請選取&#x200B;**[!UICONTROL 檢閱電子郵件]**。 請參閱[檢閱並調整產生的電子郵件](outbound-workflows.md#review-and-refine-generated-emails)。
 
 ![電子郵件評論](assets/tasks-review.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 * **[!UICONTROL 排序]** — 依到期日或建立日期排序。 排序順序也會決定佇列前進的順序。
 * **[!UICONTROL 搜尋任務]** — 依潛在客戶名稱、公司名稱或出站工作流程尋找任務。 搜尋會套用作用中的篩選器。
 
-作用中的濾鏡在工具列下方會顯示為晶片。 選取&#x200B;**[!UICONTROL 全部清除]**&#x200B;以重設它們。
+作用中的濾鏡在工具列下方會顯示為晶片。 若要重設，請選取&#x200B;**[!UICONTROL 全部清除]**。
 
 ### 任務狀態
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 **[!UICONTROL 代理程式建議]**&#x200B;索引標籤會列出符合輸出工作流程目標定位准則且建議註冊的潛在客戶。 若要開啟建議，請參閱[輸出工作流程](outbound-workflows.md)。
 
-選取建議以在工作面板中檢閱：
+若要在工作面板中檢閱建議，請選取建議：
 
 * 使用間隔徽章將每個建議標示為&#x200B;**[!UICONTROL 新的]**&#x200B;或&#x200B;**[!UICONTROL 先前的]**。
 * **[!UICONTROL 建議的潛在客戶]**&#x200B;或&#x200B;**[!UICONTROL 建議的連絡人]**&#x200B;資料表列出建議的潛在客戶，其資料行包括&#x200B;**[!UICONTROL 名稱]**、**[!UICONTROL 標題]**、**[!UICONTROL 帳戶]**、**[!UICONTROL 狀態]**、**[!UICONTROL 電子郵件]**&#x200B;和&#x200B;**[!UICONTROL 上次更新時間]**。
@@ -116,6 +116,23 @@ ht-degree: 0%
 
 **[!UICONTROL 代理程式建議]**&#x200B;索引標籤包含&#x200B;**[!UICONTROL 目前]**、**[!UICONTROL 已完成]**&#x200B;和&#x200B;**[!UICONTROL 已取消]**&#x200B;狀態篩選器、傳出工作流程篩選器，以及依建立日期排序。
 
+### 使用代理商建議回覆潛在客戶
+
+潛在客戶回覆電子郵件時，[!DNL Marketo Qualifier]可以草擬執行緒內回應，並將其新增為&#x200B;**[!UICONTROL 代理程式建議]**&#x200B;下的工作。 草稿使用來自下列專案的相關前後關聯：
+
+* 完整的電子郵件執行緒，而不僅僅是最新的訊息。
+* 您的知識中心附屬資料和產品研究。
+* 帳戶訊號，例如最近的新聞、行銷參與和CRM活動。
+* 您儲存的[電子郵件起草內容](profile-settings.md#email-drafting-context)。
+
+助理會根據潛在客戶的意圖調整回應。 例如，它可以透過您的預約連結提供會議要求的時間、在潛在客戶感興趣時強化價值、從您的附屬資料中回答產品問題、共用相關資產、以一個差異化因素處理異議，或在潛在客戶想要延遲時使用低壓回應。
+
+有關定價、法律或安全性要求、惡意回應以及不明確請求的訊息，仍會保留給代表以個人回應。
+
+1. 開啟回復建議，並檢閱完整對話串和草擬的回覆。
+1. 若要建立另一個草稿，請編輯回應，或選取&#x200B;**[!UICONTROL 使用AI產生]**。
+1. 若要傳送回應並繼續潛在客戶的輸出工作流程，請選取&#x200B;**[!UICONTROL 核准並傳送]**。
+
 ## 從傳出工作流程完成任務
 
 在輸出工作流程的&#x200B;**[!UICONTROL 參與的潛在客戶]**&#x200B;檢視上，手動接觸點提供相同的&#x200B;**[!UICONTROL 標籤為完成]**、**[!UICONTROL 跳過]**&#x200B;和附註選項。 在那裡完成一項任務也會更新其在&#x200B;**[!UICONTROL 任務]**&#x200B;頁面上的狀態。 請參閱[輸出工作流程](outbound-workflows.md)。
@@ -124,7 +141,7 @@ ht-degree: 0%
 
 * 當您沒有任務可執行時，清單會顯示&#x200B;_您今天已全部完成_&#x200B;訊息。
 * 當篩選器沒有符合任務時，清單會報告沒有符合您篩選器的任務。
-* 未選取任何任務時，工作面板會提示您選取任務以檢視其詳細資訊。
+* 未選取任何任務時，工作面板會提示您選取任務。 若要檢視其詳細資訊，請選取工作。
 
 >[!MORELIKETHIS]
 >
