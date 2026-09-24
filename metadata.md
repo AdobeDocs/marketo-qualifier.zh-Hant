@@ -7,7 +7,7 @@ product_v2:
 usetq: true
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/marketo-qualifier.en
+git-repo: https://github.com/AdobeDocs/marketo-qualifier.zh-Hant
 index: true
 source-git-commit: a992dee152445a950cbf78366363c39f2e8d5129
 workflow-type: tm+mt
