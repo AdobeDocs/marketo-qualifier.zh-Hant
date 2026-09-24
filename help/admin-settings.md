@@ -1,6 +1,6 @@
 ---
 title: 管理員設定
-description: 瞭解如何管理CRM欄位、活動同步、電子郵件選擇退出和其他Adobe Marketo限定詞管理設定。
+description: 瞭解如何管理CRM欄位、活動同步、電子郵件選擇退出和其他[!DNL Adobe Marketo Qualifier]管理設定。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
@@ -14,9 +14,9 @@ feature_v2:
     internal-label: Administration
 
 internal-label: Administration
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1221'
 ht-degree: 0%
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 使用&#x200B;**[!UICONTROL 管理員設定]**&#x200B;來設定CRM整合、管理知識中心，以及設定電子郵件選擇退出。
 
-Adobe Marketo辨識符號會連線至Salesforce或Microsoft Dynamics 365。 此連線可讓Account Qualification Agent (AQA)以一致的方式檢視潛在客戶、帳戶、聯絡人、活動和擁有者。 Marketo限定詞也可以將外聯活動和選擇退出狀態寫入回CRM，並將外聯活動同步到Marketo。
+[!DNL Adobe Marketo Qualifier]已連線至Salesforce或Microsoft Dynamics 365。 此連線可讓Account Qualification Agent (AQA)以一致的方式檢視潛在客戶、帳戶、聯絡人、活動和擁有者。 Marketo限定詞也可以將外聯活動和選擇退出狀態寫入回CRM，並將外聯活動同步到Marketo。
 
 若要設定CRM連線、欄位對應和活動同步處理，請移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理員設定]** > **[!UICONTROL CRM連線]**。 標準使用者可使用已設定的CRM資料和篩選器，但無法變更這些設定。 若要第一次連線CRM，請參閱[開始使用](getting-started.md#connect-your-crm)。
 
@@ -37,8 +37,21 @@ Adobe Marketo辨識符號會連線至Salesforce或Microsoft Dynamics 365。 此�
 Marketo限定詞可透過下列方式與CRM搭配使用：
 
 * **CRM MCP查詢**—Account Qualification Agent會查詢即時CRM資料，以便回答和深入分析能反映您記錄的目前狀態。
-* **內嵌外掛程式**—CRM外掛程式會在您的CRM中顯示[!DNL Marketo Sales Insights] (MSI)深入分析和代理程式資料。 使用外掛程式將潛在客戶新增至Marketo限定詞。
+* **內嵌外掛程式**—CRM外掛程式會在您的CRM中顯示[!DNL Marketo Sales Insights] (MSI)深入分析和代理程式資料。 使用外掛程式將潛在客戶新增至[!DNL Marketo Qualifier]。
 * **活動同步** — 管理員開啟&#x200B;**[!UICONTROL 活動同步]**&#x200B;時，外聯活動會同步至CRM和Marketo。
+
+### 排定CRM外掛程式中潛在客戶的優先順序
+
+CRM外掛程式提供預設首頁，代表可以在其中優先處理潛在客戶而不離開CRM。 可用的標籤會依來源和意圖組織工作：
+
+* **[!UICONTROL 首選]** — 已準備好採取動作的潛在客戶建議。
+* **[!UICONTROL 我的觀察清單]** — 您正在追蹤的潛在客戶。
+* **[!UICONTROL 網站活動]** — 來自已知潛在客戶的最近網站造訪。
+* **[!UICONTROL 匿名網路活動]** — 來自未識別訪客的造訪。
+* **[!UICONTROL 我的電子郵件]** — 與潛在客戶相關聯的電子郵件參與。
+* **[!UICONTROL 網路研討會]** — 網路研討會註冊與出席活動。
+
+每個潛在客戶都可以包含[!DNL Marketo]電子郵件預覽、指向潛在客戶詳細資料的連結，以及LinkedIn研究。 您可以存取的標籤和資料取決於您的CRM外掛程式設定。
 
 ## CRM存取範圍
 
@@ -50,19 +63,19 @@ Marketo限定詞會從CRM讀取使用者、聯絡人、擁有者對應、銷售�
 
 ## 對應CRM欄位（傳入對應）
 
-CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開啟&#x200B;**[!UICONTROL 輸入對應]**。 傳入對應可控制Marketo限定詞將哪些CRM欄位提取至應用程式。
+CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開啟&#x200B;**[!UICONTROL 輸入對應]**。 傳入對應可控制Marketo Qualifier將哪些CRM欄位提取至應用程式。
 
 1. 選取&#x200B;**[!UICONTROL 新增節]**。
 1. 輸入區段名稱和說明。
 1. 選取實體型別。 預設會選取&#x200B;**[!UICONTROL 潛在客戶]**。 **[!UICONTROL 連絡人]**、**[!UICONTROL 帳戶]**&#x200B;和&#x200B;**[!UICONTROL 商機]**&#x200B;也可供使用。
-1. 選取要匯入的CRM欄位。
+1. 若要匯入CRM欄位，請選取欄位。
 
    每個欄位列會顯示其&#x200B;**[!UICONTROL 顯示名稱]**、**[!UICONTROL 欄位名稱]**&#x200B;和&#x200B;**[!UICONTROL 資料型別]**。
 
 1. 針對您想要在&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;清單中作為篩選器提供的每個潛在客戶、連絡人或機會欄位，開啟&#x200B;**[!UICONTROL 可篩選]**。
 1. 預覽區段並選取&#x200B;**[!UICONTROL 新增]**。
 
-對應欄位會顯示在Marketo辨識符號的對應區域中：
+對應的欄位會顯示在Marketo Qualifier的對應區域中：
 
 * 潛在客戶欄位會顯示在&#x200B;**[!UICONTROL 人員]**&#x200B;索引標籤上。
 * 帳戶欄位出現在&#x200B;**[!UICONTROL 帳戶]**&#x200B;索引標籤上。
@@ -72,13 +85,13 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
 1. 從&#x200B;**[!UICONTROL CRM連線]**，為連線的CRM選取&#x200B;**[!UICONTROL 管理]**。
 1. 開啟&#x200B;**[!UICONTROL 輸出對應]**。
-1. 開啟&#x200B;**[!UICONTROL Activity sync]**，將Marketo Qualifier外展活動同步回CRM和Marketo。
+1. 開啟&#x200B;**[!UICONTROL 活動同步]**，將Marketo Qualifier外聯活動同步回CRM和Marketo。
 
 當活動同步關閉時，Marketo Qualifier會繼續使用傳入CRM資料，但不會將外聯活動同步至您的CRM或Marketo。
 
 ## 設定CRM同步處理規則
 
-當潛在客戶在輸出工作流程中移動時，Marketo限定詞可以將潛在客戶狀態更新自動寫回Salesforce和Microsoft Dynamics，以便代表不再手動更新CRM。
+當潛在客戶瀏覽輸出工作流程時，Marketo Qualifier可以自動將潛在客戶狀態更新寫回Salesforce和Microsoft Dynamics，以便代表不再手動更新CRM。
 
 ### CRM同步規則的作用
 
@@ -110,13 +123,14 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
 ![知識中心](assets/knowledge-center.png){width="800" zoomable="yes"}
 
-1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理]**，選取&#x200B;**[!UICONTROL 管理設定]**，然後選取&#x200B;**[!UICONTROL 知識中心]**
-1. u
+1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理]**，選取&#x200B;**[!UICONTROL 管理設定]**，然後選取&#x200B;**[!UICONTROL 知識中心]**。
 1. 設定Marketo Qualifier用來研究您的公司及草擬電子郵件的&#x200B;**[!UICONTROL 公司名稱]**&#x200B;和&#x200B;**[!UICONTROL 公司URL]**。
 1. 以PDF、PPTX或DOCX格式上傳銷售重頭戲、理想客戶設定檔(ICP)、定位指南和其他銷售宣傳品。
 1. 選取&#x200B;**[!UICONTROL 建置行動手冊]**。
 
-每個上傳的檔案會顯示其處理狀態（例如&#x200B;**[!UICONTROL 就緒]**）以及上次更新時間。
+此頁面會顯示最近建立的Playbook狀態，並會在您上傳內容後提供下一個動作。 若要在建置後擷取最新狀態，請選取&#x200B;**[!UICONTROL 重新整理]**。
+
+每個上傳的檔案也會顯示其處理狀態（例如&#x200B;**[!UICONTROL 就緒]**）以及上次更新的時間。
 
 >[!NOTE]
 >

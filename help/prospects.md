@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo中的潛在客戶限定詞
-description: 瞭解如何從CRM、匯入和手動新增的來源、篩選潛在客戶以及在Adobe Marketo限定詞中檢閱潛在客戶詳細資訊，以建立您的潛在客戶清單。
+title: '[!DNL Adobe Marketo Qualifier]中的潛在客戶'
+description: 瞭解如何在[!DNL Adobe Marketo Qualifier]中從CRM、匯入和手動新增來源、篩選潛在客戶以及檢閱潛在客戶詳細資訊，建立您的潛在客戶清單。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -15,28 +15,38 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 2124387555f5fb08ea19eaf121fc87aa66d66de2
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '755'
 ht-degree: 1%
 ---
 
 # 潛在客戶
 
-在左側導覽中選取&#x200B;**[!UICONTROL 潛在客戶]**，以檢視您可以存取的潛在客戶與連絡人。 使用清單來檢閱每個潛在客戶的狀態和最新活動。
+若要檢視您可以存取的潛在客戶與聯絡人，請在左側導覽中選取&#x200B;**[!UICONTROL 潛在客戶]**。 使用清單來檢閱每個潛在客戶的狀態和最新活動。
 
 ![潛在客戶表格顯示潛在客戶管理的潛在客戶狀態和最後一個活動](./assets/prospects.png){width="800" zoomable="yes"}
 
-* **[!UICONTROL 銷售機會]** — 在連線的CRM中指派給您的銷售機會。
-* **[!UICONTROL 連絡人]** — 在連線的CRM中指派給您的連絡人。
-* **[!UICONTROL 行銷重點專案]** — 具有即時Marketo活動（例如電子郵件開啟或點按）的潛在客戶。
-* **[!UICONTROL 人員清單]** — 您手動匯入或新增的潛在客戶。
+* 在連線的CRM中指派給您的&#x200B;**[!UICONTROL 銷售機會]**&#x200B;銷售機會。
+* 在連線的CRM中指派給您的&#x200B;**[!UICONTROL 連絡人]**&#x200B;連絡人。
+* **[!UICONTROL 行銷重點]**&#x200B;具有即時Marketo活動（例如電子郵件開啟或點按）的潛在客戶。
+* **[!UICONTROL 人員清單]**&#x200B;您手動匯入或新增的潛在客戶。
+
+## 檢閱潛在客戶內容並匯出清單
+
+潛在客戶清單會總結是否有其他內容可用於個人化外聯。 清單上方的摘要會顯示每個狀態的潛在客戶數量，而內容欄會顯示每個潛在客戶的狀態：
+
+* **[!UICONTROL 已套用]**&#x200B;可用的內容已套用至潛在客戶。
+* **[!UICONTROL 部分]**&#x200B;僅套用部分可用的內容。
+* **[!UICONTROL 遺失]**&#x200B;沒有其他可用的內容。
+
+若要將目前的潛在客戶清單下載為CSV檔案，請選取&#x200B;**[!UICONTROL 匯出CSV]**。
 
 ## 建立您的潛在客戶清單
 
 潛在客戶清單結合來自多個來源的人員：
 
-* **CRM潛在客戶**—Adobe Marketo限定詞會自動匯入指派給連線使用者的潛在客戶與聯絡人。 請參閱[整合](integrations.md)。
+* **CRM潛在客戶**—[!DNL Adobe Marketo Qualifier]會自動匯入指派給連線使用者的潛在客戶與連絡人。 請參閱[整合](integrations.md)。
 * **匯入的潛在客戶** — 從CSV檔案匯入的潛在客戶。
 * **手動新增潛在客戶** — 在Marketo限定詞中新增個別潛在客戶。
 
@@ -50,14 +60,14 @@ ht-degree: 1%
 
    * 若要匯入CSV，請上傳`firstname,email`格式的CSV。
      名字和電子郵件為必填。 姓氏為選用。 CSV範本不包含CRM銷售機會ID欄，但您可以在匯入之前將該欄及其值新增到檔案中。 如果匯入失敗，請檢閱錯誤訊息以尋找要更正的欄位或值，然後再次上傳檔案。
-     對應任何自訂或其他CSV欄位，而不僅僅是標準欄位。 Marketo限定詞會將這些值儲存給每個潛在客戶，並在稍後提供這些值，包括產生[電子郵件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
+     對應任何自訂或其他CSV欄位，而不僅僅是標準欄位。 Marketo Qualifier會將這些值儲存給每個潛在客戶，並於稍後提供這些值，包括產生[電子郵件](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
    * 若要手動新增人員，請在表單中輸入其詳細資料。
 
 1. 選取「**[!UICONTROL 儲存]**」。
 
 ## 篩選和尋找潛在客戶
 
-選取&#x200B;**[!UICONTROL 篩選器]**&#x200B;以縮小清單。 您可以依下列條件篩選：
+若要縮小清單範圍，請選取&#x200B;**[!UICONTROL 篩選器]**。 您可以依下列條件篩選：
 
 * 傳出工作流程狀態
 * 建立者
@@ -66,13 +76,13 @@ ht-degree: 1%
 * 來源
 * 上次更新時間
 
-管理員也可以將對應的CRM欄位設為篩選條件。 在&#x200B;**[!UICONTROL 管理員設定]**&#x200B;中，針對代表用來尋找潛在客戶的每個欄位開啟&#x200B;**[!UICONTROL 可篩選]**。 檢視[對應CRM欄位](integrations.md#map-crm-fields-inbound-mapping)。
+管理員也可以將對應的CRM欄位設為篩選條件。 在&#x200B;**[!UICONTROL 管理設定]**&#x200B;中，針對使用者用來尋找潛在客戶的每個欄位開啟&#x200B;**[!UICONTROL 可篩選]**。 檢視[對應CRM欄位](integrations.md#map-crm-fields-inbound-mapping)。
 
 在&#x200B;**[!UICONTROL 我的商機聯絡人]**&#x200B;中，您也可以依相關商機的欄位來篩選聯絡人，例如階段、型別和結束日期。 商機欄位有標籤，例如&#x200B;**[!UICONTROL 階段（商機）]**，這會將商機欄位與聯絡人欄位區分開來。 您的管理員可控制哪些機會欄位可做為篩選器。
 
 ### 依行銷重點篩選
 
-透過潛在客戶的即時[!DNL Marketo]參與（例如電子郵件開啟和點按、網頁造訪、表單填寫和有趣的時刻）來尋找並排定其優先順序。 參與幾乎會即時出現。
+透過潛在客戶的即時[!DNL Marketo]參與（例如電子郵件活動、網站造訪和表單填寫）來檢閱並排定其優先順序。 參與幾乎會即時出現。
 
 若要依行銷重點篩選潛在客戶：
 
@@ -85,18 +95,18 @@ ht-degree: 1%
 
 ## 檢閱潛在客戶詳細資訊
 
-選取潛在客戶以開啟其設定檔。 在聯絡之前，請先檢閱重要的訊號：
+若要開啟潛在客戶設定檔，請選取潛在客戶。 在聯絡之前，請先檢閱重要的訊號：
 
-* **AI人員摘要** — 潛在客戶或連絡人及其最近參與的AI寫入快照。 在檢閱個別活動之前，使用摘要來瞭解人員的一目瞭然。 執行Adobe Journey Optimizer B2B edition Prime或Ultimate的執行個體上提供AI人員摘要。
+* **AI人員摘要** — 潛在客戶或連絡人及其最近參與的AI寫入快照。 在檢閱個別活動之前，使用摘要快速瞭解人員。 執行[!DNL Marketo Optimizer] Prime或Ultimate的執行個體上有AI人員摘要。
 * **活動清單** — 按時間順序排列的活動和最近行為清單。
 * **時間表檢視** — 跨管道互動的視覺時間表。
-* **已檢視內容** — 潛在客戶已檢視的網頁和資產。 選取要開啟的專案。
+* **已檢視內容** — 潛在客戶已檢視的網頁和資產。 若要開啟專案，請選取該專案。
 
 ### 產生會議準備
 
 除了長期的AI人員摘要之外，您還可以從&#x200B;**[!UICONTROL 帳戶研究]**&#x200B;旁的&#x200B;**[!UICONTROL 會議研究]**&#x200B;索引標籤，產生針對特定近期通話量身打造的會議準備。
 
-* **目標型** — 如果潛在客戶已註冊執行中的輸出工作流程，請選取它。 準備作業會符合該傳出工作流程的目標，例如預約會議、產品推介、活動邀請或重新吸引潛在客戶。
+* **目標型** — 如果潛在客戶已註冊執行中的輸出工作流程，請選取它。 準備作業會符合該傳出工作流程的目標，例如預約會議或重新與潛在客戶互動。
 * **自訂提示** — 輸入您要準備的內容，例如`Focus on renewal risk`或`Prepare for a technical deep dive with their IT lead`。 準備符合您的提示。 只要潛在客戶不在執行中的傳出工作流程中，就可以使用自訂提示選項。
 
 >[!MORELIKETHIS]

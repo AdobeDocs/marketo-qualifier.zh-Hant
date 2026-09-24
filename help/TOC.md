@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe Marketo辨識符號
-user-guide-description: 瞭解如何使用Adobe Marketo Qualifier，為B2B銷售團隊自動化潛在客戶資格、外聯和買方參與。
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+user-guide-title: '[!DNL Adobe Marketo Qualifier]'
+user-guide-description: 瞭解如何使用[!DNL Adobe Marketo Qualifier]來自動化B2B銷售團隊的潛在客戶資格、外聯及購買者參與。
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '42'
+ht-degree: 26%
 ---
-# Adobe Marketo限定詞指南 {#using}
+# [!DNL Adobe Marketo Qualifier]指南 {#using}
 
 + [概觀](home.md)
 + [發行說明](release-notes.md)

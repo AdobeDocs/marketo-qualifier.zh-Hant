@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -58,9 +58,9 @@ Adobe Admin Console中的使用者群組可用來控制對Marketo限定詞的存
 1. 開啟&#x200B;**[!UICONTROL 指派的產品設定檔]**&#x200B;並選取&#x200B;**[!UICONTROL 指派設定檔]**。
 1. 選取&#x200B;**[!UICONTROL Adobe Experience Platform]**。
 1. 選取&#x200B;**[!UICONTROL 預設的生產所有存取]**&#x200B;產品設定檔，選取&#x200B;**[!UICONTROL 套用]**，然後選取&#x200B;**[!UICONTROL 儲存]**。
-1. 開啟&#x200B;**[!UICONTROL 使用者]**&#x200B;並選取&#x200B;**[!UICONTROL 新增使用者]**，以新增需要存取Marketo辨識符號的所有使用者。
+1. 若要新增需要存取Marketo Qualifier的所有使用者，請開啟&#x200B;**[!UICONTROL 使用者]**&#x200B;並選取&#x200B;**[!UICONTROL 新增使用者]**。
 
-### Marketo辨識符號管理員
+### Marketo Qualifier管理員
 
 設定CRM連線、[知識中心](admin-settings.md#knowledge-center)以及全域電子郵件選擇退出設定的管理員也必須屬於`Marketo Qualifier Admins`使用者群組。
 
@@ -77,7 +77,7 @@ Adobe Admin Console中的使用者群組可用來控制對Marketo限定詞的存
 
 ## 連線您的CRM
 
-Marketo限定詞會連線至Salesforce或Microsoft Dynamics 365，為BDR提供使用者、銷售機會、聯絡人、帳戶、商機、擁有者對應和相關活動的統一檢視。 初始連線需要此CRM資料的唯讀存取權。 若要在連線Marketo辨識符號之前準備認證，請洽詢您的CRM管理員。 如需整合詳細資訊，請參閱[整合](integrations.md)。
+Marketo Qualifier會連線至Salesforce或Microsoft Dynamics 365，為BDR提供使用者、潛在客戶、聯絡人、帳戶、機會、擁有者對應和相關活動的統一檢視。 初始連線需要此CRM資料的唯讀存取權。 若要在連線Marketo Qualifier之前準備認證，請洽詢您的CRM管理員。 如需整合詳細資訊，請參閱[整合](integrations.md)。
 
 >[!PREREQUISITES]
 >
@@ -169,7 +169,7 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 
 ### 匯入CRM欄位
 
-連線CRM後，請設定輸入對應，以決定哪些CRM欄位會出現在Marketo限定詞中。 在連線的CRM卡片上，選取&#x200B;**[!UICONTROL 管理]**&#x200B;以開啟&#x200B;**[!UICONTROL 輸入對應]**，然後為您要匯入其欄位的每個實體型別新增區段。
+連線CRM後，請設定輸入對應，以決定哪些CRM欄位會出現在Marketo限定詞中。 若要開啟&#x200B;**[!UICONTROL 輸入對應]**，請在連線的CRM卡片上選取&#x200B;**[!UICONTROL 管理]**，然後為您要匯入其欄位的每個實體型別新增區段。
 
 如需完整的步驟，包括如何讓匯入的欄位成為可用的篩選器，請參閱[對應CRM欄位（輸入對應）](integrations.md#map-crm-fields-inbound-mapping)。
 
