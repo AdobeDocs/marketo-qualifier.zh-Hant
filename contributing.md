@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 投稿人指南
 
-請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 ## 提出問題
 

@@ -31,7 +31,7 @@ ht-degree: 19%
 1. 在&#x200B;**中，此內容是否有所幫助？** 在頁面底部的橫幅，選取&#x200B;**詳細的意見選項**。
 1. 選取&#x200B;**建議編輯**&#x200B;並提交包含您變更的提取請求(PR)。
 
-   如需詳細資訊，請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+   如需詳細資訊，請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 您為此存放庫文件和程式碼範例提交的微幅更正或釐清，均屬於 Adobe 使用條款規範的範圍。
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 
 使用GitHub介面進行基本編輯。 若為主要貢獻專案，請建立存放庫復本。
 
-如需詳細資訊，請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+如需詳細資訊，請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 ## 內部貢獻者
 
