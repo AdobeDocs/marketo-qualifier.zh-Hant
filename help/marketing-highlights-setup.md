@@ -56,7 +56,7 @@ ht-degree: 1%
    **[!UICONTROL OAuth伺服器對伺服器]**&#x200B;可讓[!DNL Marketo]直接從伺服器呼叫Marketo Qualifier API，而不需要人員登入。
 
 1. 輸入45個字元或更少的認證名稱，例如`Marketo Qualifier Marketing Highlights Creds`。
-1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API ]**。**[!UICONTROL 
+1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API **。**
 1. 在&#x200B;**[!UICONTROL 連線的認證]**&#x200B;底下，開啟&#x200B;**[!UICONTROL OAuth伺服器對伺服器]**&#x200B;認證。 選取&#x200B;**[!UICONTROL 擷取使用者端密碼]**，然後複製&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 您在[Part C](#part-c-configure-the-marketo-webhook)中使用這些值。
 
 >[!WARNING]
