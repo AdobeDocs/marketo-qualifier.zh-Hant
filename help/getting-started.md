@@ -1,12 +1,12 @@
 ---
-title: 開始使用Adobe Marketo辨識符號
-description: 瞭解在您的團隊開始使用應用程式之前，如何完成Adobe Marketo限定元的一次性管理員設定，包括使用者群組和CRM連線。
+title: 開始使用Adobe Marketo Qualifier
+description: 瞭解在您的團隊開始使用應用程式之前，如何完成Adobe Marketo Qualifier的一次性管理員設定，包括使用者群組和CRM連線。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -21,23 +21,23 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
 ---
 
-# 開始使用Adobe Marketo辨識符號
+# 開始使用Adobe Marketo Qualifier
 
-Adobe為您的組織布建Marketo限定詞後，[!DNL Marketo]系統管理員必須建立所需的使用者群組，並連線Salesforce或Microsoft Dynamics 365。
+Adobe為您的組織布建Marketo Qualifier後，[!DNL Marketo]系統管理員必須建立所需的使用者群組，並連線Salesforce或Microsoft Dynamics 365。
 
-![Marketo辨識符號首頁](assets/homepage.png){width="800" zoomable="yes"}
+![Marketo Qualifier首頁](assets/homepage.png){width="800" zoomable="yes"}
 
 ## 設定使用者群組
 
-Adobe Admin Console中的使用者群組可用來控制對Marketo限定詞的存取權。 必須先建立兩個群組，使用者才能登入。
+Adobe Admin Console中的使用者群組可用來控制對Marketo Qualifier的存取。 必須先建立兩個群組，使用者才能登入。
 
-如需設定群組的相關資訊，請參閱[Adobe Admin Console檔案](https://helpx.adobe.com/tw/business/enterprise/users/users-and-groups/user-groups.html)。
+如需設定群組的相關資訊，請參閱[Adobe Admin Console檔案](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
@@ -46,7 +46,7 @@ Adobe Admin Console中的使用者群組可用來控制對Marketo限定詞的存
 >* 成為組織管理員，並有權從Adobe應用程式切換器存取&#x200B;**[!UICONTROL Admin Console]**。
 >* 已被指派Adobe Experience Platform產品或成為系統管理員。 否則，Adobe Experience Platform不會出現在產品清單中。
 
-### Marketo限定詞使用者
+### Marketo Qualifier使用者
 
 使用者必須屬於`Marketo Qualifier`使用者群組才能存取應用程式。
 
@@ -116,7 +116,7 @@ Salesforce系統管理員會建立外部使用者端應用程式（也稱為連�
 1. 確認執行身分使用者擁有`Leads`、`Accounts`、`Contacts`、`Tasks`、`Events`、`Opportunity`、`OpportunityContactRoles`和`OpportunityLineItems`的&#x200B;**讀取**&#x200B;存取權。 同時確認已啟用&#x200B;**存取活動**。
 1. 儲存應用程式。
 1. 從&#x200B;**[!UICONTROL 應用程式管理員]**，開啟應用程式並選取&#x200B;**[!UICONTROL 檢視]** > **[!UICONTROL 消費者詳細資料]**。
-1. 為Marketo限定詞連線複製下列值：
+1. 為Marketo Qualifier連線複製下列值：
 
    * 消費者金鑰（使用者端ID）
    * 使用者密碼（使用者端密碼）
@@ -128,7 +128,7 @@ Salesforce系統管理員會建立外部使用者端應用程式（也稱為連�
 ### 尋找您的Salesforce執行個體URL
 
 1. 從瀏覽器位址列（`{{mydomain}}`值）登入並記下您的組織&#x200B;_我的網域_&#x200B;子網域。
-1. 對Marketo限定詞使用標準格式： `https://{{mydomain}}.my.salesforce.com`。
+1. 使用Marketo Qualifier的標準格式： `https://{{mydomain}}.my.salesforce.com`。
 
 請勿使用`lightning.force.com` URL作為執行個體URL。
 
@@ -155,7 +155,7 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 
 ### 輸入您的連線
 
-1. 請登入Marketo辨識符號群組，並確認已選取正確的沙箱或環境，以確認您是必要的Marketo辨識符號群組的成員。
+1. 作為兩個必要Marketo Qualifier群組的成員，登入Marketo Qualifier並確認已選取正確的沙箱或環境。
 1. 在左側導覽列中，展開&#x200B;**[!UICONTROL 管理]**&#x200B;並選取&#x200B;**[!UICONTROL 管理設定]**。
 1. 選取&#x200B;**[!UICONTROL 整合]**&#x200B;下的&#x200B;**[!UICONTROL CRM連線]**。
 
@@ -169,7 +169,7 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 
 ### 匯入CRM欄位
 
-連線CRM後，請設定輸入對應，以決定哪些CRM欄位會出現在Marketo限定詞中。 若要開啟&#x200B;**[!UICONTROL 輸入對應]**，請在連線的CRM卡片上選取&#x200B;**[!UICONTROL 管理]**，然後為您要匯入其欄位的每個實體型別新增區段。
+連線CRM後，請設定輸入對應來判斷哪些CRM欄位會出現在Marketo Qualifier中。 若要開啟&#x200B;**[!UICONTROL 輸入對應]**，請在連線的CRM卡片上選取&#x200B;**[!UICONTROL 管理]**，然後為您要匯入其欄位的每個實體型別新增區段。
 
 如需完整的步驟，包括如何讓匯入的欄位成為可用的篩選器，請參閱[對應CRM欄位（輸入對應）](integrations.md#map-crm-fields-inbound-mapping)。
 

@@ -4,8 +4,8 @@ description: 瞭解如何將Marketo連結至Adobe Marketo Qualifier，讓代表�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -56,7 +56,7 @@ ht-degree: 1%
    **[!UICONTROL OAuth伺服器對伺服器]**&#x200B;可讓[!DNL Marketo]直接從伺服器呼叫Marketo Qualifier API，而不需要人員登入。
 
 1. 輸入45個字元或更少的認證名稱，例如`Marketo Qualifier Marketing Highlights Creds`。
-1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API **。**
+1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API ]**。**[!UICONTROL 
 1. 在&#x200B;**[!UICONTROL 連線的認證]**&#x200B;底下，開啟&#x200B;**[!UICONTROL OAuth伺服器對伺服器]**&#x200B;認證。 選取&#x200B;**[!UICONTROL 擷取使用者端密碼]**，然後複製&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 您在[Part C](#part-c-configure-the-marketo-webhook)中使用這些值。
 
 >[!WARNING]
@@ -67,9 +67,9 @@ ht-degree: 1%
 
 您需要[Part C](#part-c-configure-the-marketo-webhook)的三個值：
 
-* **端點URL** — 您地區的Marketo限定詞webhook位址。
+* **端點URL** — 您地區的Marketo Qualifier webhook位址。
 * **imsOrg ID** — 貴組織在Adobe Identity Management System (IMS)中的識別碼，格式為`{ORG_ID}@AdobeOrg`。
-* **沙箱名稱** — 您的AEP沙箱名稱與Marketo限定詞URL （`sname`值）中顯示的名稱完全相同，不代表UI中顯示的顯示名稱。 使用小寫URL值，例如`prod`，而不是`Prod`。
+* **沙箱名稱** — 您的AEP沙箱名稱與Marketo Qualifier URL中顯示的名稱完全相同（`sname`值），不是UI中顯示的顯示名稱。 使用小寫URL值，例如`prod`，而不是`Prod`。
 
 | 區域 | Webhook端點URL |
 | --- | --- |
@@ -170,7 +170,7 @@ ht-degree: 1%
 
 ## D部分：將webhook新增至觸發器Smart Campaign {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
-將&#x200B;**[!UICONTROL 呼叫Webhook]**&#x200B;流程步驟新增至觸發智慧行銷活動（現有行銷活動或新行銷活動）。 智慧清單會在該行銷活動中觸發，以決定要將哪些活動傳送至Marketo限定詞。
+將&#x200B;**[!UICONTROL 呼叫Webhook]**&#x200B;流程步驟新增至觸發智慧行銷活動（現有行銷活動或新行銷活動）。 智慧清單會在該行銷活動中觸發，以決定要將哪些活動傳送至Marketo Qualifier。
 
 若要新增webhook：
 
@@ -179,7 +179,7 @@ ht-degree: 1%
 1. 在&#x200B;**[!UICONTROL 流程]**&#x200B;索引標籤上，新增&#x200B;**[!UICONTROL 呼叫Webhook]**&#x200B;步驟，並選取您在[C](#part-c-configure-the-marketo-webhook)部分中建立的webhook。
 1. 啟動Smart Campaign。
 
-該Smart Campaign的活動現在會流入Marketo辨識符號。 代表可以在&#x200B;**[!UICONTROL 潛在客戶]** > **[!UICONTROL 行銷重點專案]**&#x200B;上檢視並篩選此活動。
+該Smart Campaign的活動現在流入Marketo Qualifier。 代表可以在&#x200B;**[!UICONTROL 潛在客戶]** > **[!UICONTROL 行銷重點專案]**&#x200B;上檢視並篩選此活動。
 
 >[!MORELIKETHIS]
 >

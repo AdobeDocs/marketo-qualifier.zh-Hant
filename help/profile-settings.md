@@ -1,18 +1,25 @@
 ---
 title: 設定輪廓設定
-description: 瞭解如何在Adobe Marketo辨識符號設定檔設定中設定您的電子郵件連線、簽名和行事曆可用性。
+description: 瞭解如何在Adobe Marketo Qualifier設定檔設定中設定您的電子郵件連線、簽名和行事曆可用性。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
+TQID: 'https://experienceleague.adobe.com/YsrBduYA7jKhgxttexqMBBpgDIq23s6wUb4Wp6y6h3g'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+feature_v2:
+  - id: 1e0ea71a-a210-5748-9b0f-c02c2ef6a746
+    internal-label: Workflows
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 3%
@@ -38,7 +45,7 @@ ht-degree: 3%
 
 使用&#x200B;**[!UICONTROL 電子郵件起草內容]**&#x200B;來設定電子郵件語調、結構和樣式，讓電子郵件保持一致。
 
-在&#x200B;**[!UICONTROL 電子郵件起草內容]**&#x200B;區域以純文字標籤撰寫內容。
+在&#x200B;**[!UICONTROL 電子郵件起草內容]**區域以純文字標籤撰寫內容。
 使用它來定義：
 
 * 音調和聲音
@@ -66,12 +73,12 @@ ht-degree: 3%
 
 ## 日曆可用性
 
-您在Adobe Marketo限定詞中的行事曆可用性取決於兩個輸入：
+您在Adobe Marketo Qualifier中的行事曆可用性是根據兩個輸入：
 
 * 您連線的工作行事曆，例如Outlook或Gmail
 * **[!UICONTROL 行事曆組態]**&#x200B;中的可用性與時距規則
 
-Marketo限定詞會從連線的行事曆讀取空閒/忙碌狀態，而非事件詳細資訊。 系統會將此狀態與您的規則結合，決定潛在客戶可以預約的時段。
+Marketo Qualifier會從連線的行事曆讀取空閒/忙碌狀態，而非事件詳細資訊。 系統會將此狀態與您的規則結合，決定潛在客戶可以預約的時段。
 
 您可以設定：
 

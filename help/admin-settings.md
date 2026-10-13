@@ -3,20 +3,26 @@ title: 管理員設定
 description: 瞭解如何管理CRM欄位、活動同步、電子郵件選擇退出和其他[!DNL Adobe Marketo Qualifier]管理設定。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-    internal-label: Administration
-
 internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+autotag-review: '2026-10-08T17:58:28.029Z'
+TQID: 'https://experienceleague.adobe.com/2eccZWj1XY7qP20n6GcnBe6PZwNkp0ALhZfOhljwZF8'
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1292'
 ht-degree: 0%
 ---
 
@@ -24,7 +30,7 @@ ht-degree: 0%
 
 使用&#x200B;**[!UICONTROL 管理員設定]**&#x200B;來設定CRM整合、管理知識中心，以及設定電子郵件選擇退出。
 
-[!DNL Adobe Marketo Qualifier]已連線至Salesforce或Microsoft Dynamics 365。 此連線可讓Account Qualification Agent (AQA)以一致的方式檢視潛在客戶、帳戶、聯絡人、活動和擁有者。 Marketo限定詞也可以將外聯活動和選擇退出狀態寫入回CRM，並將外聯活動同步到Marketo。
+[!DNL Adobe Marketo Qualifier]已連線至Salesforce或Microsoft Dynamics 365。 此連線可讓Account Qualification Agent (AQA)以一致的方式檢視潛在客戶、帳戶、聯絡人、活動和擁有者。 Marketo Qualifier也可以將外聯活動和選擇退出狀態寫回CRM，並將外聯活動與Marketo同步。
 
 若要設定CRM連線、欄位對應和活動同步處理，請移至&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 管理員設定]** > **[!UICONTROL CRM連線]**。 標準使用者可使用已設定的CRM資料和篩選器，但無法變更這些設定。 若要第一次連線CRM，請參閱[開始使用](getting-started.md#connect-your-crm)。
 
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 ## CRM MCP與內嵌外掛程式
 
-Marketo限定詞可透過下列方式與CRM搭配使用：
+Marketo Qualifier會透過下列方式與CRM搭配使用：
 
 * **CRM MCP查詢**—Account Qualification Agent會查詢即時CRM資料，以便回答和深入分析能反映您記錄的目前狀態。
 * **內嵌外掛程式**—CRM外掛程式會在您的CRM中顯示[!DNL Marketo Sales Insights] (MSI)深入分析和代理程式資料。 使用外掛程式將潛在客戶新增至[!DNL Marketo Qualifier]。
@@ -55,7 +61,7 @@ CRM外掛程式提供預設首頁，代表可以在其中優先處理潛在客�
 
 ## CRM存取範圍
 
-Marketo限定詞會從CRM讀取使用者、聯絡人、擁有者對應、銷售機會、帳戶、商機和活動。 它會只將記錄的外聯活動和選擇退出狀態寫入到CRM，並將外聯活動同步到Marketo。 您的CRM管理員已在Salesforce或Dynamics中準備API存取。 Marketo限定詞管理員接著會連線CRM、對應輸入欄位，並選擇是否同步活動。
+Marketo Qualifier會從CRM讀取使用者、聯絡人、擁有者對應、銷售機會、帳戶、商機和活動。 它會只將記錄的外聯活動和選擇退出狀態寫入到CRM，並將外聯活動同步到Marketo。 您的CRM管理員已在Salesforce或Dynamics中準備API存取。 Marketo Qualifier管理員接著會連線CRM、對應傳入欄位，並選擇是否同步活動。
 
 >[!NOTE]
 >
@@ -119,7 +125,7 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
 ## 建立知識中心行動手冊 {#knowledge-center}
 
-**[!UICONTROL 知識中心]**&#x200B;可讓Account Qualification Agent (AQA)存取您的銷售資料。 Marketo Qualifier會使用這些資料來產生研究、資格深入分析和外展活動，以反映貴組織的銷售方式。 只有管理員可以建置和管理行動手冊。
+**[!UICONTROL 知識中心]**&#x200B;可讓Account Qualification Agent (AQA)存取您的銷售資料。 Marketo Qualifier使用這些資料來產生研究、資格深入分析和外展活動，以反映貴組織的銷售方式。 只有管理員可以建置和管理行動手冊。
 
 ![知識中心](assets/knowledge-center.png){width="800" zoomable="yes"}
 
@@ -138,7 +144,7 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
 當教戰手冊準備就緒時，代表可以在兩個地方使用它：
 
-* **傳出電子郵件提示** — 在接觸點提示中，命名檔案並描述要使用的內容。 例如，輸入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。 請參閱[產生並檢閱接觸點](outbound-workflows.md#step-3-generate-and-review-touchpoints)。
+* **傳出電子郵件提示** — 在接觸點提示中，命名檔案並描述要使用的內容。 例如，輸入`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`。 請參閱[設定接觸點](outbound-workflows.md#step-3-generate-and-review-touchpoints)。
 * **AI聊天**：請參考您問題中的知識中心。 例如，輸入`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`。 檢視[AI聊天](ai-assistant.md)。
 
 在這兩種情況下，產生的內容都會反映行動手冊中的訊息，而非一般研究。
@@ -152,7 +158,7 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
 設定會自動儲存。
 
-當潛在客戶選取連結時，Marketo限定詞會停止向該潛在客戶傳送電子郵件，並將選擇退出狀態同步到連線的CRM。
+當潛在客戶選取連結時，Marketo Qualifier會停止向該潛在客戶傳送電子郵件，並將選擇退出狀態同步到連線的CRM。 Marketo Qualifier也會在潛在客戶的電子郵件回覆中辨識明確的選擇退出請求（例如「請停止傳送電子郵件給我」或「取消訂閱」），並自動將潛在客戶標示為選擇退出。 套用相同的&#x200B;**[!UICONTROL 選擇退出]**&#x200B;狀態和徽章，且不會傳送進一步的接觸點。 不需要其他設定。 未明確要求停止的回覆（例如「目前未要求」）不會視為選擇退出。 檢視回覆中的[選擇退出請求](outbound-workflows.md#opt-out-requests-in-replies)。
 
 ## 參考資料：範例API引數
 

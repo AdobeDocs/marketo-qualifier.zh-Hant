@@ -5,10 +5,10 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 Outbound Workflows    internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 * **每週電子郵件趨勢圖**：每週的電子郵件活動。
 * 每位代表的電子郵件效能表格。
 
-Marketo限定詞會為「不在辦公室」的回覆和退回指定個別的狀態，以便您將其與潛在客戶參與區分開來。
+Marketo Qualifier會為「不在辦公室」回覆和退信指派個別的狀態，以便您將其與潛在客戶參與區分開來。
 
 ### 任務標籤
 
