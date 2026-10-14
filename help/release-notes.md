@@ -3,12 +3,22 @@ title: '[!DNL Adobe Marketo Qualifier] 發行說明'
 description: 瞭解[!DNL Adobe Marketo Qualifier]的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 12%
 ---
 # [!DNL Adobe Marketo Qualifier] 發行說明
+
+## 10-08-2026
+
+此版本包括：
+
+* 重複使用傳出工作流程，或變更執行中工作流程的接觸點，複製並編輯副本。 複製會以無潛在客戶的私人草稿開始，而原始工作流程則保持不變。 [了解更多](outbound-workflows.md#duplicate-an-outbound-workflow)。
+* 以精簡版面配置輸出工作流程，並在目標、目標定位、接觸點和設定之間導覽。 [了解更多](outbound-workflows.md#create-an-outbound-workflow)。
+* 系統會自動辨識電子郵件回覆中的清除選擇退出請求。 潛在客戶會標籤為選擇退出，並且不會傳送進一步的接觸點。 [了解更多](outbound-workflows.md#opt-out-requests-in-replies)。
+* 以結合網頁研究和產品特定客戶案例研究的單一簡報，根據相關性和識別出的來源來排名談話要點，為會議做好準備。 [了解更多](prospects.md#generate-meeting-prep)。
+* 產生的電子郵件會根據品質准則進行檢查，並在您檢閱前視需要重新寫入。 您仍然會在傳送每封電子郵件之前稽核、編輯和核准。 [了解更多](outbound-workflows.md#review-and-refine-generated-emails)。
 
 ## 09-22-2026
 

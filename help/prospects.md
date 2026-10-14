@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2124387555f5fb08ea19eaf121fc87aa66d66de2
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '852'
 ht-degree: 1%
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 * **CRM潛在客戶**—[!DNL Adobe Marketo Qualifier]會自動匯入指派給連線使用者的潛在客戶與連絡人。 請參閱[整合](integrations.md)。
 * **匯入的潛在客戶** — 從CSV檔案匯入的潛在客戶。
-* **手動新增潛在客戶** — 在Marketo限定詞中新增個別潛在客戶。
+* **手動新增潛在客戶** — 在Marketo Qualifier中新增個別潛在客戶。
 
 若要新增非來自您CRM的潛在客戶：
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
 每個潛在客戶都會顯示其最新的[!DNL Marketo]活動以及最近的歷史記錄。
 
-行銷重點適用於所有生產區域。 管理員完成一次性設定，將[!DNL Marketo]連線至Marketo辨識符號。 請參閱[設定行銷重點專案](integrations.md#turn-on-marketo-engagement-filtering)。
+行銷重點適用於所有生產區域。 管理員完成一次性設定，將[!DNL Marketo]連線至Marketo Qualifier。 請參閱[設定行銷重點專案](integrations.md#turn-on-marketo-engagement-filtering)。
 
 ## 檢閱潛在客戶詳細資訊
 
@@ -106,8 +106,12 @@ ht-degree: 1%
 
 除了長期的AI人員摘要之外，您還可以從&#x200B;**[!UICONTROL 帳戶研究]**&#x200B;旁的&#x200B;**[!UICONTROL 會議研究]**&#x200B;索引標籤，產生針對特定近期通話量身打造的會議準備。
 
+「會議準備」結合有關潛在客戶及其公司的網路研究，以及來自使用您銷售產品的同級客戶之案例研究的證據。 案例研究談話要點可包含可衡量的客戶結果。 資料來源會合併為一個簡短，並依照相關性排列談話要點。 每個談話要點都會指出它來自案例研究、網路研究還是兩者。 如果沒有相關的案例研究證據，會議準備會使用網頁研究。
+
 * **目標型** — 如果潛在客戶已註冊執行中的輸出工作流程，請選取它。 準備作業會符合該傳出工作流程的目標，例如預約會議或重新與潛在客戶互動。
 * **自訂提示** — 輸入您要準備的內容，例如`Focus on renewal risk`或`Prepare for a technical deep dive with their IT lead`。 準備符合您的提示。 只要潛在客戶不在執行中的傳出工作流程中，就可以使用自訂提示選項。
+
+簡介會持續遵循您選擇的傳出工作流程目標或自訂提示。 您產生會議準備的方式不會變更。
 
 >[!MORELIKETHIS]
 >
