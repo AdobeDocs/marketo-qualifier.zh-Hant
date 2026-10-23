@@ -13,15 +13,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: 30abc8c57bb9b7a57f68c8e7daecc1bf3ac36567
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '703'
 ht-degree: 0%
 ---
 
 # 帳戶
 
 帳戶檢視結合了AI產生的研究、最近的新聞、開放的商機、管道值和參與的聯絡人。 在聯絡之前，請先透過這些資訊瞭解帳戶並排定優先順序。
+
+若要一次尋找多個帳戶並排定優先順序，請使用[智慧對象(Beta)](smart-audience.md)。 建立帳戶清單、使用CRM資料和成長訊號調整清單，並尋找要新增至傳出工作流程的銷售機會。
 
 ## 開立帳戶
 
@@ -66,7 +68,9 @@ Adobe Marketo Qualifier會從潛在客戶的CRM記錄中識別帳戶。 與該�
 | **[!UICONTROL 最上層成員]** | 帳戶參與次數最多的聯絡人（依參與度排名）。 每個聯絡人都會顯示其職稱、電子郵件地址、參與分數和緊急程度指標。 |
 | **[!UICONTROL 意圖資料]** | 為帳戶購買意向訊號，例如帳戶正在研究的產品和主題。 |
 | **[!UICONTROL 帳戶團隊成員]** | 指派至帳戶的人員，包括其電子郵件、職稱、區域和產品群組。 |
-| **[!UICONTROL CRM欄位]** | 從您的CRM匯入的帳戶欄位，如傳入對應中所設定。 請參閱[整合](integrations.md#map-crm-fields-inbound-mapping)。 |
+| **[!UICONTROL CRM欄位]** | 從您的CRM匯入的帳戶欄位，如傳入對應中所設定。 |
+
+管理員設為可篩選的欄位，也可用來依聯絡人的關聯帳戶篩選聯絡人，並定義傳出工作流程目標定位條件。 請參閱[整合](integrations.md#map-crm-fields-inbound-mapping)。
 
 從&#x200B;**[!UICONTROL 最上層成員]**&#x200B;檢視，為連絡人執行下列任一動作：
 

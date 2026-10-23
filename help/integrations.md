@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 ---
 
 # 整合
@@ -147,9 +147,11 @@ Marketo Qualifier只會讀取其傳送的電子郵件回覆，而不會讀取收
 
 1. 輸入&#x200B;**[!UICONTROL 區段名稱]**&#x200B;和選用的&#x200B;**[!UICONTROL 描述]**。 然後，選取&#x200B;**[!UICONTROL 下一步]**。
 1. 在&#x200B;**[!UICONTROL 新增欄位]**&#x200B;步驟中，若要匯入CRM欄位，請搜尋並選取它們。 然後，若要繼續，請選取&#x200B;**[!UICONTROL 下一步]**。 每個欄位會顯示其&#x200B;**[!UICONTROL 顯示名稱]**、**[!UICONTROL 欄位名稱]**&#x200B;和&#x200B;**[!UICONTROL 資料型別]**。
-1. 針對&#x200B;**[!UICONTROL 潛在客戶]**、**[!UICONTROL 連絡人]**&#x200B;及&#x200B;**[!UICONTROL 商機]**&#x200B;區段，針對[潛在客戶](prospects.md)清單上代表所需的每個欄位，開啟&#x200B;**[!UICONTROL 可篩選]**。
+1. 針對&#x200B;**[!UICONTROL 潛在客戶]**、**[!UICONTROL 連絡人]**、**[!UICONTROL 帳戶]**&#x200B;及&#x200B;**[!UICONTROL 機會]**&#x200B;區段，針對代表在[潛在客戶](prospects.md#filter-and-find-prospects)清單或[傳出工作流程目標](outbound-workflows.md#step-2-configure-targeting-filters)中所需的每個欄位，開啟&#x200B;**[!UICONTROL 可篩選]**。
 
    如果欄位的資料型別不支援篩選，或欄位已用於其他區段中，則無法將其設為可篩選。
+
+   可篩選的帳戶欄位可讓代表依照其關聯帳戶的屬性來篩選聯絡人，例如產業、地區或帳戶型別。 他們可以結合客戶、聯絡人及商機篩選器，以定義哪些聯絡人符合傳出工作流程的資格。 帳戶欄位篩選適用於Salesforce和Microsoft Dynamics 365。
 
    在&#x200B;**[!UICONTROL 我的機會聯絡人]**&#x200B;中，可篩選的機會欄位會顯示為單獨的欄，並帶有&#x200B;**[!UICONTROL 階段（機會）]**&#x200B;等標籤。 尾碼可區分相關連絡人欄位中的機會屬性。
 

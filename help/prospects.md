@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '953'
 ht-degree: 1%
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 ![潛在客戶表格顯示潛在客戶管理的潛在客戶狀態和最後一個活動](./assets/prospects.png){width="800" zoomable="yes"}
 
 * 在連線的CRM中指派給您的&#x200B;**[!UICONTROL 銷售機會]**&#x200B;銷售機會。
-* 在連線的CRM中指派給您的&#x200B;**[!UICONTROL 連絡人]**&#x200B;連絡人。
+* **[!UICONTROL 連絡人]**&#x200B;在連線的CRM中指派給您的連絡人及其關聯帳戶。 聯絡詳細資料也包含擁有者姓名。 這些詳細資料適用於Salesforce和Microsoft Dynamics 365。
 * **[!UICONTROL 行銷重點]**&#x200B;具有即時Marketo活動（例如電子郵件開啟或點按）的潛在客戶。
 * **[!UICONTROL 人員清單]**&#x200B;您手動匯入或新增的潛在客戶。
 
@@ -80,6 +80,8 @@ ht-degree: 1%
 
 在&#x200B;**[!UICONTROL 我的商機聯絡人]**&#x200B;中，您也可以依相關商機的欄位來篩選聯絡人，例如階段、型別和結束日期。 商機欄位有標籤，例如&#x200B;**[!UICONTROL 階段（商機）]**，這會將商機欄位與聯絡人欄位區分開來。 您的管理員可控制哪些機會欄位可做為篩選器。
 
+您也可以依相關帳戶的欄位來篩選連絡人，例如產業、地區或帳戶型別。 您的管理員會選擇可篩選的帳戶欄位。 結合帳戶、聯絡人和機會篩選器，以尋找（舉例來說）特定產業中帳戶的特定角色聯絡人。 帳戶欄位篩選適用於Salesforce和Microsoft Dynamics 365，相同的欄位可用於[輸出工作流程目標定位](outbound-workflows.md#step-2-configure-targeting-filters)。
+
 ### 依行銷重點篩選
 
 透過潛在客戶的即時[!DNL Marketo]參與（例如電子郵件活動、網站造訪和表單填寫）來檢閱並排定其優先順序。 參與幾乎會即時出現。
@@ -98,8 +100,8 @@ ht-degree: 1%
 若要開啟潛在客戶設定檔，請選取潛在客戶。 在聯絡之前，請先檢閱重要的訊號：
 
 * **AI人員摘要** — 潛在客戶或連絡人及其最近參與的AI寫入快照。 在檢閱個別活動之前，使用摘要快速瞭解人員。 執行[!DNL Marketo Optimizer] Prime或Ultimate的執行個體上有AI人員摘要。
-* **活動清單** — 按時間順序排列的活動和最近行為清單。
-* **時間表檢視** — 跨管道互動的視覺時間表。
+* **活動清單** — 顯示過去90天行銷活動的時間順序清單。
+* **時間表檢視** — 顯示過去90天跨管道行銷參與情況的視覺時間表。
 * **已檢視內容** — 潛在客戶已檢視的網頁和資產。 若要開啟專案，請選取該專案。
 
 ### 產生會議準備

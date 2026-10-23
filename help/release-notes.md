@@ -3,12 +3,18 @@ title: '[!DNL Adobe Marketo Qualifier] 發行說明'
 description: 瞭解[!DNL Adobe Marketo Qualifier]的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 12%
+source-wordcount: '619'
+ht-degree: 11%
 ---
 # [!DNL Adobe Marketo Qualifier] 發行說明
+
+## 即將發行的版本
+
+* 透過Smart audience (Beta)尋找並優先處理正確的帳戶和銷售機會。 以簡單語言描述您想要的帳戶、新增CRM資料和成長訊號、檢閱已評分的銷售機會，並將其新增至傳出工作流程。 [了解更多](smart-audience.md)。
+* 依帳戶欄位、連絡人和機會欄位篩選連絡人，以尋找合適的連絡人，並更精確地鎖定傳出工作流程。 [了解更多](prospects.md#filter-and-find-prospects)。
+* 連絡人會顯示其相關聯的帳戶和擁有者名稱，而潛在客戶頁面現在會顯示90天的行銷活動，最長30天。 [了解更多](prospects.md#review-prospect-details)。
 
 ## 10-08-2026
 
