@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 17%
 ---
 
 # [!DNL Adobe Marketo Qualifier]
@@ -32,6 +32,7 @@ ht-degree: 18%
 ## 您可在[!DNL Marketo Qualifier]中執行的動作
 
 * **使用AI產生的活動摘要和訊號式優先順序，優先處理潛在客戶和帳戶**。
+* **使用純文字描述帳戶、新增CRM資料和成長訊號，以及檢閱傳出工作流程的已評分潛在客戶，以建立具有[智慧對象(Beta)](smart-audience.md)**&#x200B;的目標清單。
 * **建立目標導向的傳出工作流程**，其中AI會為每個潛在客戶建議步調並草擬個人化電子郵件。
 * **在一個佇列中處理外展工作**，處理電話、LinkedIn InMails和電子郵件評論。
 * **連線行事曆並將個人預約連結插入您的步調，以自動預約會議**。
@@ -78,6 +79,16 @@ ht-degree: 18%
 使用帳戶層級的管道和參與資料排定外聯活動的優先順序。
 
 [帳戶](accounts.md)
+:::
+
+:::card
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+
+智慧型對象(Beta)
+
+建立並排定科目與銷售機會清單的優先順序，然後將選取的銷售機會新增至「出站工作流程」。
+
+[智慧型對象(Beta)](smart-audience.md)
 :::
 
 :::card

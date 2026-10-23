@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '754'
 ht-degree: 1%
 ---
 
@@ -58,7 +58,7 @@ AI Chat可以使用以下來源：
 
 ## 在連線的資料中詢問AI聊天
 
-AI Chat可回答您[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]和公司情報資料的問題。 以簡單語言提出問題以查閱資訊或擷取內容。 AI Chat會讀取並報告您的資料；不會建立、編輯或啟動任何內容。
+AI Chat可回答您[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]和公司情報資料的問題。 以簡單語言提出問題以查閱資訊或擷取內容。 這些連線資料查詢會讀取並報告您的資料；不會建立、編輯或啟動方案或行銷活動。
 
 以下是一些範例提示。 您在提示中的內容越具體，結果就越集中。
 
@@ -106,7 +106,8 @@ CRM：
 
 ### 目前的範圍和限制
 
-* AI Chat會讀取並報告您的資料。 它不會建立、編輯或啟動任何內容。 例如，它不會建立方案、啟動行銷活動或編輯清單。
+* 連線資料查詢功能會讀取您的資料並製作報表。 他們不會建立方案、啟動行銷活動或編輯CRM記錄。
+* 在[智慧對象(Beta)](smart-audience.md)中，聊天支援對象清單上的動作，包括儲存清單、新增資訊欄、篩選帳戶和潛在客戶並排定其優先順序，以及將所選潛在客戶新增到現有的傳出工作流程。 這不會寫入CRM或取代電子郵件檢閱和核准。
 * AI Chat會尋找資訊；它不是報告工具。 它不會建置[!DNL Marketo]樣式的分析或一段時間的趨勢，例如季度的電子郵件健全狀態或過去10天內建立的潛在客戶清單。 對這些工作使用原生[!DNL Marketo]報告。
 
 ## 在您的行動手冊中接下來的

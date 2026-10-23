@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2776'
 ht-degree: 0%
 ---
 
@@ -93,6 +93,8 @@ AI會將目標中的需求準確地保留在產生的接觸點中。 包含確�
 
 鎖定目標可以使用活動型別、分數、評分和其他可用的屬性。 將條件與[!DNL AND]或[!DNL OR]結合，並使用等號、包含、大於、小於和介於等運運算元。
 
+針對Salesforce和Microsoft Dynamics 365，鎖定目標也可結合帳戶、聯絡人及商機欄位，管理員可對這些欄位在[傳入對應](integrations.md#map-crm-fields-inbound-mapping)中篩選。 例如，將連絡人的角色與其相關帳戶的產業結合，以及鎖定適當連絡人的機會階段。
+
 ### 從行銷重點自動註冊潛在客戶
 
 輸出工作流程可以根據其目標定位條件評估即時行銷重點活動。 當活動相符時，[!DNL Marketo Qualifier]會透過電子郵件解析潛在客戶的CRM擁有者，並只將潛在客戶註冊到屬於該代表的合格工作流程中。
@@ -161,6 +163,8 @@ AI會根據您的指示重寫完整的步調。 若要調整一個電子郵件�
 ### 新增潛在客戶並開始產生電子郵件 {#step-5-add-prospects-and-start-email-generation}
 
 儲存後，從選取檢視新增潛在客戶。 隨即套用您設定的目標定位篩選器。
+
+您也可以從[智慧對象(Beta)清單](smart-audience.md#add-leads-to-an-outbound-workflow)，將銷售機會新增到現有的傳出工作流程。 在確認之前，先檢閱所選的銷售機會和工作流程。 新增潛在客戶不會取代以下描述的電子郵件檢閱和核准步驟。
 
 1. 檢閱清單。
 

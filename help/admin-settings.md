@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1356'
 ht-degree: 0%
 ---
 
@@ -78,14 +78,16 @@ CRM連線之後，請針對連線選取&#x200B;**[!UICONTROL 管理]**，並開�
 
    每個欄位列會顯示其&#x200B;**[!UICONTROL 顯示名稱]**、**[!UICONTROL 欄位名稱]**&#x200B;和&#x200B;**[!UICONTROL 資料型別]**。
 
-1. 針對您想要在&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;清單中作為篩選器提供的每個潛在客戶、連絡人或機會欄位，開啟&#x200B;**[!UICONTROL 可篩選]**。
+1. 針對您想要在&#x200B;**[!UICONTROL 潛在客戶]**&#x200B;清單及[對外工作流程目標](outbound-workflows.md#step-2-configure-targeting-filters)中作為篩選器提供的每個潛在客戶、連絡人、帳戶或機會欄位，開啟&#x200B;**[!UICONTROL 可篩選]**。
 1. 預覽區段並選取&#x200B;**[!UICONTROL 新增]**。
 
 對應的欄位會顯示在Marketo Qualifier的對應區域中：
 
 * 潛在客戶欄位會顯示在&#x200B;**[!UICONTROL 人員]**&#x200B;索引標籤上。
-* 帳戶欄位出現在&#x200B;**[!UICONTROL 帳戶]**&#x200B;索引標籤上。
+* 帳戶欄位出現在&#x200B;**[!UICONTROL 帳戶]**&#x200B;索引標籤上。 在具有&#x200B;**[!UICONTROL 帳戶]**&#x200B;實體型別的區段中，將欄位設為可篩選欄位，以便代表可以依其關聯帳戶的屬性（例如產業、地區或帳戶型別）篩選連絡人。
 * 機會欄位出現在&#x200B;**[!UICONTROL 帳戶機會]**&#x200B;區段中。 可篩選的商機欄位也會在&#x200B;**[!UICONTROL 我的商機聯絡人]**&#x200B;中顯示為自己的欄，並加上標籤，例如&#x200B;**[!UICONTROL 階段（商機）]**，以便與聯絡人欄位區分開來。
+
+帳戶欄位篩選適用於Salesforce和Microsoft Dynamics 365。 代表可以結合可篩選的帳戶、聯絡人和商機欄位，以尋找聯絡人並定義傳出工作流程目標定位條件。
 
 ## 設定活動同步（傳出對應）
 
