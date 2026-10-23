@@ -52,7 +52,7 @@ ht-degree: 17%
 
 ::::landing-cards-container
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 開始使用
 
@@ -62,7 +62,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 潛在客戶
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 帳戶
 
@@ -82,7 +82,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 智慧型對象(Beta)
 
@@ -92,7 +92,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
 
 傳出工作流程
 
@@ -102,7 +102,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 工作
 
@@ -112,7 +112,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 績效
 
@@ -122,7 +122,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 知識中心
 
@@ -132,7 +132,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 整合
 
@@ -142,7 +142,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
 
 輪廓設定
 
@@ -152,7 +152,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
 
 AI聊天
 
