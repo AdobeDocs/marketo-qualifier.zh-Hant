@@ -6,9 +6,23 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
-Outbound Workflows    internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+    internal-label: Marketo Qualifier
+feature_v2:
+  - id: 9c53860b-cccc-5459-8aaa-1ce63e824212
+    internal-label: Reporting
+subfeature_v2:
+  - id: 273c6647-b67a-5ded-864b-43b39292aeeb
+    internal-label: Outbound performance
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
