@@ -3,7 +3,13 @@ title: '[!DNL Adobe Marketo Qualifier] 發行說明'
 description: 瞭解[!DNL Adobe Marketo Qualifier]的新增功能。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Marketo Qualifier
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 11%

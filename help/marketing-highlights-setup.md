@@ -5,20 +5,23 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: da701e37-3227-4187-b68a-914277252a79
     internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-    internal-label: Administration
+subfeature_v2:
+  - id: 7b0925d9-0dc0-5c75-a54d-2bcc31c6ebe4
+    internal-label: Marketing highlights
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
+source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -56,7 +59,7 @@ ht-degree: 1%
    **[!UICONTROL OAuth伺服器對伺服器]**&#x200B;可讓[!DNL Marketo]直接從伺服器呼叫Marketo Qualifier API，而不需要人員登入。
 
 1. 輸入45個字元或更少的認證名稱，例如`Marketo Qualifier Marketing Highlights Creds`。
-1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API **。**
+1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API ]**。**[!UICONTROL 
 1. 在&#x200B;**[!UICONTROL 連線的認證]**&#x200B;底下，開啟&#x200B;**[!UICONTROL OAuth伺服器對伺服器]**&#x200B;認證。 選取&#x200B;**[!UICONTROL 擷取使用者端密碼]**，然後複製&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 您在[Part C](#part-c-configure-the-marketo-webhook)中使用這些值。
 
 >[!WARNING]
