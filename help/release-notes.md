@@ -9,15 +9,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 11%
+source-wordcount: '767'
+ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 發行說明
 
 ## 即將發行的版本
 
+* 以淺顯的語言描述您想要聯絡的人，並將其轉換為CRM銷售機會和聯絡人篩選器，在傳出工作流程定位中使用每個銷售機會和聯絡人篩選器，並在儲存之前預覽相符的潛在客戶。 [了解更多](outbound-workflows.md#step-2-configure-targeting-filters)。
+* 在文字欄位（例如「職稱」和「電子郵件」）中一次篩選多個值的潛在客戶，每個篩選器最多可有五個值。 [了解更多](prospects.md#filter-and-find-prospects)。
+* 直接從輸出工作流程檢閱、編輯和傳送潛在客戶回覆的AI草稿回覆，或拒絕不符合的草稿。 [了解更多](outbound-workflows.md#review-and-send-ai-draft-replies)。
+* 在Salesforce或Microsoft Dynamics 365中安裝[!DNL Adobe Marketo Qualifier]，並從Salesforce清單檢視和記錄頁面將潛在客戶新增到傳出工作流程或Marketo行銷活動。 [了解更多](crm-plugin-setup.md)。
+* Smart Audience (Beta)可讓您更快速上手：引導式逐步說明、建立對象時的快速新增選項、具有記錄計數的更清楚清單、保留在檢視中的帳戶欄，以及色碼分數。 [了解更多](smart-audience.md)。
 * 透過Smart audience (Beta)尋找並優先處理正確的帳戶和銷售機會。 以簡單語言描述您想要的帳戶、新增CRM資料和成長訊號、檢閱已評分的銷售機會，並將其新增至傳出工作流程。 [了解更多](smart-audience.md)。
 * 依帳戶欄位、連絡人和機會欄位篩選連絡人，以尋找合適的連絡人，並更精確地鎖定傳出工作流程。 [了解更多](prospects.md#filter-and-find-prospects)。
 * 連絡人會顯示其相關聯的帳戶和擁有者名稱，而潛在客戶頁面現在會顯示90天的行銷活動，最長30天。 [了解更多](prospects.md#review-prospect-details)。

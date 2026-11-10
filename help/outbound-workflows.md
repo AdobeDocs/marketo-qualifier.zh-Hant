@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '3086'
 ht-degree: 0%
 ---
 
@@ -82,20 +82,21 @@ AI會將目標中的需求準確地保留在產生的接觸點中。 包含確�
 
 目標定位篩選器會定義哪些潛在客戶符合資格。 當您稍後新增潛在客戶時，只有符合這些篩選條件的潛在客戶才會出現在選取清單中。
 
-![目標定位篩選器](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+以簡單的語言描述您想要聯絡的CRM銷售機會或聯絡人。 例如，輸入`Contacts with open opportunities closing in the next 30 days`，或使用內建範例提示來開始。 [!DNL Adobe Marketo Qualifier]會將說明轉換為儲存前可檢閱和編輯的篩選器。 如果部分說明無法轉換為篩選器，則會加以標幟，以便您可以檢閱條件，而非無意中將其忽略。
 
-以自然語言描述您理想的潛在客戶。 例如，輸入`Hot leads at companies with 500 or more employees who requested a demo`。 [!DNL Adobe Marketo Qualifier]會將說明轉換為您可檢閱和調整的目標定位條件。
+篩選器產生器使用與「潛在客戶」頁面上的[行銷重點篩選器](prospects.md#filter-by-marketing-highlights)相同的體驗。 用它來新增、編輯或清除條件。
 
-1. 若要開啟&#x200B;**[!UICONTROL 新增篩選器]**&#x200B;清單，請選取向下箭頭，然後選取篩選器。
-
-1. 設定篩選的值。
-1. 如果您需要縮小對象範圍，請新增更多篩選器。
-
-1. 繼續前往接觸點。
+1. 檢閱從您的說明產生的篩選器，或選取篩選器以手動新增條件。
+1. 選擇運運算元，然後輸入或選取每個條件的值。
+1. 新增、編輯或清除條件以調整對象。
+1. 選取&#x200B;**[!UICONTROL 預覽潛在客戶]**&#x200B;或&#x200B;**[!UICONTROL 預覽連絡人]**&#x200B;以檢視哪些潛在客戶相符。
+1. 繼續接觸點之前，請視需要檢閱預覽並調整篩選器。
 
 鎖定目標可以使用活動型別、分數、評分和其他可用的屬性。 將條件與[!DNL AND]或[!DNL OR]結合，並使用等號、包含、大於、小於和介於等運運算元。
 
-針對Salesforce和Microsoft Dynamics 365，鎖定目標也可結合帳戶、聯絡人及商機欄位，管理員可對這些欄位在[傳入對應](integrations.md#map-crm-fields-inbound-mapping)中篩選。 例如，將連絡人的角色與其相關帳戶的產業結合，以及鎖定適當連絡人的機會階段。
+來自&#x200B;**[!UICONTROL 銷售機會]**&#x200B;和&#x200B;**[!UICONTROL 聯絡人]**&#x200B;清單的每個篩選器都可用於目標定位，包括帳戶欄位、機會欄位、傳出工作流程狀態和聯絡人類別，例如&#x200B;**[!UICONTROL 我的機會聯絡人]**。 管理員選擇哪些CRM欄位可在[傳入對應](integrations.md#map-crm-fields-inbound-mapping)中篩選。
+
+所有目標篩選器都會與工作流程一併儲存，並在您新增潛在客戶時自動套用。 [代理程式建議](tasks.md#agent-suggestions)會使用相同的完整篩選器集，因此建議的潛在客戶會符合您的鎖定目標條件。
 
 ### 從行銷重點自動註冊潛在客戶
 
@@ -258,6 +259,25 @@ AI會針對每個選取的潛在客戶和電子郵件接觸點產生個人化電
 
 * 在&#x200B;**[!UICONTROL 參與潛在客戶]**&#x200B;和&#x200B;**[!UICONTROL 績效]**&#x200B;上，使用&#x200B;**[!UICONTROL 由]**&#x200B;註冊以篩選潛在客戶，依其註冊者來進行。 此篩選器預設為您已註冊的潛在客戶。
 * 在&#x200B;**[!UICONTROL 瀏覽]**&#x200B;標籤上，使用共用篩選器來選取&#x200B;**[!UICONTROL 由我共用]**、**[!UICONTROL 與我共用]**、**[!UICONTROL 私人]**&#x200B;或&#x200B;**[!UICONTROL 全部]**。
+
+## 檢閱並傳送AI草稿回覆
+
+當潛在客戶回覆傳出工作流程電子郵件時，您可以直接從工作流程的&#x200B;**[!UICONTROL 參與的潛在客戶]**&#x200B;檢視檢視，檢閱、編輯和傳送AI草稿回覆，而不需要切換至任務。 如需草稿如何使用交談內容以及哪些訊息需要個人回應，請參閱[以代理商建議回覆潛在客戶](tasks.md#reply-to-a-prospect-with-an-agent-suggestion)。
+
+1. 開啟輸出工作流程，並選取&#x200B;**[!UICONTROL 參與的潛在客戶]**。
+1. 選取潛在客戶旁邊的&#x200B;**[!UICONTROL AI草稿回覆以檢閱]**&#x200B;標籤。
+
+   標籤的資訊圖示可說明潛在客戶已回覆，且草稿已準備就緒。 您也可以在潛在客戶的接觸點中，於其回覆的電子郵件下方找到草稿，標示為&#x200B;**[!UICONTROL 回覆此電子郵件]**。
+
+1. 閱讀潛在客戶的訊息，此訊息會顯示在建議回應的上方。
+1. 視需要編輯草稿。
+1. 選取&#x200B;**[!UICONTROL 核准並傳送]**&#x200B;以傳送回覆，或選取&#x200B;**[!UICONTROL 拒絕回覆]**&#x200B;以捨棄回覆。
+
+   執行任一動作後，都會顯示確認訊息。
+
+若要開啟完整的電子郵件交談，請選取&#x200B;**[!UICONTROL 檢視對話串]**。
+
+每個草稿都會顯示其狀態： **[!UICONTROL 擱置檢閱]**、**[!UICONTROL 已傳送]**、**[!UICONTROL 已拒絕]**&#x200B;或&#x200B;**[!UICONTROL 已取消]**。 只有潛在客戶的所有者可以核准或拒絕草稿。 如果草稿無法執行，則按鈕不可用，並出現一則說明原因的訊息。
 
 ## 休假回覆處理
 

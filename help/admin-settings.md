@@ -1,5 +1,5 @@
 ---
-title: 管理員設定
+title: 管理設定
 description: 瞭解如何管理CRM欄位、活動同步、電子郵件選擇退出和其他[!DNL Adobe Marketo Qualifier]管理設定。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
@@ -26,13 +26,13 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1369'
 ht-degree: 0%
 ---
 
-# 管理員設定
+# 管理設定
 
 使用&#x200B;**[!UICONTROL 管理員設定]**&#x200B;來設定CRM整合、管理知識中心，以及設定電子郵件選擇退出。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 Marketo Qualifier會透過下列方式與CRM搭配使用：
 
 * **CRM MCP查詢**—Account Qualification Agent會查詢即時CRM資料，以便回答和深入分析能反映您記錄的目前狀態。
-* **內嵌外掛程式**—CRM外掛程式會在您的CRM中顯示[!DNL Marketo Sales Insights] (MSI)深入分析和代理程式資料。 使用外掛程式將潛在客戶新增至[!DNL Marketo Qualifier]。
+* **內嵌外掛程式**—CRM外掛程式會在您的CRM中顯示[!DNL Marketo Sales Insights] (MSI)深入分析和代理程式資料。 使用外掛程式將潛在客戶新增至[!DNL Marketo Qualifier]。 如需安裝和Salesforce動作設定，請參閱[將Marketo Qualifier內嵌至CRM](crm-plugin-setup.md)。
 * **活動同步** — 管理員開啟&#x200B;**[!UICONTROL 活動同步]**&#x200B;時，外聯活動會同步至CRM和Marketo。
 
 ### 排定CRM外掛程式中潛在客戶的優先順序
