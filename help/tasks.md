@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1105'
 ht-degree: 0%
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ## 代理程式建議
 
-**[!UICONTROL 代理程式建議]**&#x200B;索引標籤會列出符合輸出工作流程目標定位准則且建議註冊的潛在客戶。 若要開啟建議，請參閱[輸出工作流程](outbound-workflows.md)。
+**[!UICONTROL 代理程式建議]**&#x200B;索引標籤會列出使用完整設定的[輸出工作流程目標定位篩選器](outbound-workflows.md#step-2-configure-targeting-filters)來建議註冊的潛在客戶。 若要開啟建議，請參閱[輸出工作流程](outbound-workflows.md)。
 
 若要在工作面板中檢閱建議，請選取建議：
 
@@ -139,6 +139,8 @@ ht-degree: 0%
 1. 開啟回復建議，並檢閱完整對話串和草擬的回覆。
 1. 若要建立另一個草稿，請編輯回應，或選取&#x200B;**[!UICONTROL 使用AI產生]**。
 1. 若要傳送回應並繼續潛在客戶的輸出工作流程，請選取&#x200B;**[!UICONTROL 核准並傳送]**。
+
+您也可從輸出工作流程的&#x200B;**[!UICONTROL 參與的潛在客戶]**&#x200B;檢視[檢視、編輯、傳送或拒絕AI草稿回覆](outbound-workflows.md#review-and-send-ai-draft-replies)。
 
 ## 從傳出工作流程完成任務
 

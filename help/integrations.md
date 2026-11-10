@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1531'
 ht-degree: 0%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 0%
 連線Outlook以傳送電子郵件、辨識潛在客戶回覆，以及排程會議。 若要讓銷售機會、聯絡人、客戶、商機、活動和擁有者可用於Account Qualification Agent (AQA)和對外工作流程，您也可以將Adobe Marketo Qualifier連線至Salesforce或Microsoft Dynamics 365。 Marketo Qualifier會讀取CRM資料、將外聯活動和選擇退出狀態寫入回CRM，並可將外聯活動同步到Marketo。 它不會以其他方式修改CRM記錄。
 
 本文說明如何連線Outlook、管理CRM連線、對應欄位、同步活動以及設定電子郵件選擇退出。 若要第一次連線CRM，請參閱[開始使用](getting-started.md#connect-your-crm)。
+
+若要讓Marketo Qualifier的深入分析和動作可在Salesforce或Microsoft Dynamics 365中使用，請參閱[將Marketo Qualifier內嵌於CRM](crm-plugin-setup.md)。
 
 >[!IMPORTANT]
 >

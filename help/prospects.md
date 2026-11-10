@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1033'
 ht-degree: 1%
 ---
 
@@ -86,6 +86,8 @@ ht-degree: 1%
 * 帳戶
 * 來源
 * 上次更新時間
+
+在&#x200B;**[!UICONTROL 銷售機會]**&#x200B;和&#x200B;**[!UICONTROL 連絡人]**&#x200B;清單中，**[!UICONTROL 職稱]**&#x200B;和&#x200B;**[!UICONTROL 電子郵件]**&#x200B;等文字篩選器最多接受五個包含運運算元的值。 輸入值並按Enter鍵，然後新增下一個值。 結果包含符合任何值的潛在客戶。 例如，包含`manager`和`director`的職稱篩選器傳回職稱包含任一字的潛在客戶。 此篩選適用於Salesforce和Microsoft Dynamics 365，且相同的篩選可用於[輸出工作流程目標定位](outbound-workflows.md#step-2-configure-targeting-filters)。
 
 管理員也可以將對應的CRM欄位設為篩選條件。 在&#x200B;**[!UICONTROL 管理設定]**&#x200B;中，針對使用者用來尋找潛在客戶的每個欄位開啟&#x200B;**[!UICONTROL 可篩選]**。 檢視[對應CRM欄位](integrations.md#map-crm-fields-inbound-mapping)。
 

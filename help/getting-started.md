@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1063'
 ht-degree: 0%
 ---
 
@@ -42,7 +42,7 @@ Adobe為您的組織布建Marketo Qualifier後，[!DNL Marketo]系統管理員�
 
 Adobe Admin Console中的使用者群組可用來控制對Marketo Qualifier的存取。 必須先建立兩個群組，使用者才能登入。
 
-如需設定群組的相關資訊，請參閱[Adobe Admin Console檔案](https://helpx.adobe.com/tw/business/enterprise/users/users-and-groups/user-groups.html)。
+如需設定群組的相關資訊，請參閱[Adobe Admin Console檔案](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)。
 
 >[!PREREQUISITES]
 >
@@ -179,6 +179,8 @@ Microsoft Dynamics 365或Azure管理員會註冊應用程式，並將其新增�
 如需完整的步驟，包括如何讓匯入的欄位成為可用的篩選器，請參閱[對應CRM欄位（輸入對應）](integrations.md#map-crm-fields-inbound-mapping)。
 
 ## 後續步驟
+
+管理員可選擇性[安裝CRM外掛程式](crm-plugin-setup.md)，讓代表可以在Salesforce或Microsoft Dynamics 365中使用Marketo Qualifier深入分析。 在Salesforce中，管理員還可以將傳出工作流程和Marketo行銷活動的動作新增到潛在客戶與聯絡人清單檢視和記錄頁面。
 
 >[!MORELIKETHIS]
 >
