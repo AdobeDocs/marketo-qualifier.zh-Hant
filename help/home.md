@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '553'
 ht-degree: 17%
 ---
 
@@ -152,7 +152,7 @@ CRM外掛程式設定
 
 安裝CRM外掛程式，並針對傳出工作流程和Marketo行銷活動設定Salesforce動作。
 
-[將Marketo Qualifier內嵌至CRM](crm-plugin-setup.md)
+[設定CRM外掛程式](crm-plugin-setup.md)
 :::
 
 :::card

@@ -1,6 +1,6 @@
 ---
-title: CRM連線
-description: 瞭解如何在Salesforce或Microsoft Dynamics 365中安裝Marketo Qualifier，以及如何為傳出工作流程和Marketo行銷活動設定Salesforce動作。
+title: 設定CRM外掛程式
+description: 瞭解如何在Salesforce或Microsoft Dynamics 365中安裝Marketo Qualifier CRM外掛程式。 針對工作流程和Marketo行銷活動設定Salesforce動作。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -17,13 +17,13 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '953'
 ht-degree: 0%
 ---
 
-# CRM連線
+# 設定CRM外掛程式
 
 安裝[!DNL Adobe Marketo Qualifier] CRM外掛程式，讓代表可以在潛在客戶、連絡人和帳戶記錄頁面上使用[!DNL Marketo Sales Insights]和AI產生的深入分析，而不需要離開Salesforce或Microsoft Dynamics 365。 外掛程式也會提供主檢視，讓您[優先處理CRM](admin-settings.md#prioritize-leads-in-the-crm-plugin)中的潛在客戶。
 
