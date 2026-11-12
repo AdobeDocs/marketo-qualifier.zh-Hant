@@ -44,7 +44,7 @@ ht-degree: 17%
 * **使用AI Chat （使用您的CRM、參與和知識中心資料）以自然語言提出問題**。
 * 使用電子郵件和會議預約報告&#x200B;**追蹤外聯績效**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3505339)
+>[!VIDEO](https://video.tv.adobe.com/v/3505358?captions=chi_hant)
 
 ## 使用首頁
 
