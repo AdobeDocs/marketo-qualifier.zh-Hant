@@ -44,7 +44,7 @@ ht-degree: 0%
 安裝套件，然後將其元件新增到代表使用的記錄頁面。
 
 1. 開啟[Salesforce安裝頁面](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce)，並以管理員身分登入Salesforce。
-1. 在套件安裝頁面上，選取[為所有使用者安裝]****，然後選取[安裝]****。
+1. 在套件安裝頁面上，選取[為所有使用者安裝]&#x200B;**&#x200B;**，然後選取[安裝]&#x200B;**&#x200B;**。
 
    您仍然可以透過Salesforce許可權控制個別使用者的存取權。
 
