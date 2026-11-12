@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1530'
 ht-degree: 0%
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 本文說明如何連線Outlook、管理CRM連線、對應欄位、同步活動以及設定電子郵件選擇退出。 若要第一次連線CRM，請參閱[開始使用](getting-started.md#connect-your-crm)。
 
-若要讓Marketo Qualifier的深入分析和動作可在Salesforce或Microsoft Dynamics 365中使用，請參閱[將Marketo Qualifier內嵌於CRM](crm-plugin-setup.md)。
+若要讓Marketo Qualifier的深入分析和動作可在Salesforce或Microsoft Dynamics 365中使用，請參閱[設定CRM外掛程式](crm-plugin-setup.md)。
 
 >[!IMPORTANT]
 >

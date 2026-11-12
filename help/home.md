@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '553'
 ht-degree: 17%
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 * **使用AI Chat （使用您的CRM、參與和知識中心資料）以自然語言提出問題**。
 * 使用電子郵件和會議預約報告&#x200B;**追蹤外聯績效**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3505358?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3505339)
 
 ## 使用首頁
 
@@ -56,7 +56,7 @@ ht-degree: 17%
 
 ::::landing-cards-container
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 開始使用
 
@@ -66,7 +66,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 潛在客戶
 
@@ -76,7 +76,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 帳戶
 
@@ -86,7 +86,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 智慧型對象(Beta)
 
@@ -96,7 +96,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 傳出工作流程
 
@@ -106,7 +106,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 工作
 
@@ -116,7 +116,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 績效
 
@@ -126,7 +126,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 知識中心
 
@@ -136,7 +136,7 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 整合
 
@@ -146,17 +146,17 @@ ht-degree: 17%
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 CRM外掛程式設定
 
 安裝CRM外掛程式，並針對傳出工作流程和Marketo行銷活動設定Salesforce動作。
 
-[將Marketo Qualifier內嵌至CRM](crm-plugin-setup.md)
+[設定CRM外掛程式](crm-plugin-setup.md)
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 輪廓設定
 
@@ -166,7 +166,7 @@ CRM外掛程式設定
 :::
 
 :::card
-![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=zh-Hant)
+![圖示](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI聊天
 
