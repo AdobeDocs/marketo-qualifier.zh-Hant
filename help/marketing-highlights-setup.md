@@ -1,6 +1,6 @@
 ---
 title: 設定行銷重點專案
-description: 瞭解如何將Marketo連結至Adobe Marketo Qualifier，讓代表可以透過「行銷焦點」中的即時Marketo活動檢視和篩選潛在客戶。
+description: 瞭解如何使用Smart Campaign流程步驟將潛在客戶從Marketo Engage傳送到Marketo Qualifier，並取得行銷重點建議以供檢閱。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -21,30 +21,63 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '1011'
 ht-degree: 1%
 ---
 
 # 設定行銷重點專案
 
-行銷重點顯示每個潛在客戶的即時[!DNL Marketo]活動，例如電子郵件開啟與點按、網站造訪及表單填寫。 本文說明如何連線您的[!DNL Marketo]執行個體，讓活動能夠順利進行。
+將&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟新增至Smart Campaign，以將潛在客戶從[!DNL Adobe Marketo Engage]傳送至[!DNL Adobe Marketo Qualifier]。 代表可以在&#x200B;**[!UICONTROL 潛在客戶]** > **[!UICONTROL 行銷焦點]**&#x200B;上檢視銷售機會和傳送他們的活動。
+
+流程步驟適用於兩種型別的Smart Campaign：
+
+* **觸發行銷活動**&#x200B;在發生時傳送參與，例如電子郵件開啟和點按、連結點按、表單填寫和網頁造訪。
+* **批次行銷活動**&#x200B;在每次行銷活動執行時傳送合格銷售機會。
+
+當銷售機會符合輸出工作流程的目標定位條件時，Marketo Qualifier會在您連線的CRM中將該銷售機會建議給其擁有者。 在註冊和外聯之前，擁有該產品的代表會稽核並核准銷售機會。 銷售機會不會自動註冊。
+
+行銷重點適用於所有生產區域：北美、歐洲、中東和非洲及澳洲。
+
+## 開始之前 {#before-you-begin}
+
+在新增流程步驟之前，請先確認下列必要條件：
+
+* Marketo管理員已在&#x200B;**[!UICONTROL 管理員]**&#x200B;中為您的Marketo Engage執行個體開啟&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**。
+* Marketo Qualifier已[連線至Salesforce或Microsoft Dynamics 365](getting-started.md#connect-your-crm)，因此每個潛在客戶都可以與其CRM擁有者相符。
 
 >[!IMPORTANT]
 >
->完成此設定需要在[!DNL Marketo]中存取Adobe Developer Console和&#x200B;**[!UICONTROL 管理員]**。 請與您的Adobe連絡人及[!DNL Marketo]管理員合作，完成下列四個部分。
+>**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟不需要webhook、端點URL或API認證。 您不需要存取Adobe Developer Console即可使用。 如果無法使用流程步驟，請聯絡您的Marketo管理員。
 
-設定包含四個部分：
+## 使用Smart Campaign傳送銷售機會 {#send-leads-with-a-smart-campaign}
 
-* A部分：在Adobe Developer Console中建立API認證。
-* B部分：收集您的Adobe Marketo Qualifier端點和識別碼。
-* C部分：在[!DNL Marketo Engage]中設定webhook。
-* D部分：將webhook新增至觸發器Smart Campaign。
+使用現有的Smart Campaign，或為您要傳送的潛在客戶與活動建立一個。
 
-安裝完成後，使用者可以在&#x200B;**[!UICONTROL 潛在客戶]** > **[!UICONTROL 行銷焦點]**&#x200B;上看見並篩選此活動。
+1. 在Marketo Engage中，開啟Smart Campaign，或選取&#x200B;**[!UICONTROL 行銷活動]** > **[!UICONTROL 新增]** > **[!UICONTROL Smart Campaign]**&#x200B;以建立一個。
+1. 在&#x200B;**[!UICONTROL 智慧清單]**&#x200B;索引標籤上，定義哪些潛在客戶符合資格。
 
-## A部分：建立API認證 {#part-a-create-api-credentials}
+   * 針對觸發器促銷活動，為您要傳送的活動新增觸發器，例如&#x200B;**[!UICONTROL 瀏覽網頁]**、**[!UICONTROL 點選網頁上的連結]**&#x200B;或電子郵件中的&#x200B;**[!UICONTROL 點選連結]**。
+   * 對於批次行銷活動，為您要傳送的潛在客戶新增篩選器。
+
+1. 在&#x200B;**[!UICONTROL 流程]**&#x200B;索引標籤上，新增&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟。
+1. 啟動觸發促銷活動，或執行或排程批次促銷活動。
+1. 在Marketo Qualifier中，開啟&#x200B;**[!UICONTROL 潛在客戶]** > **[!UICONTROL 行銷重點]**&#x200B;以檢閱銷售機會及其活動。
+
+   此活動顯示潛在客戶如何到達，例如&#x200B;**[!UICONTROL 從批次行銷活動]**&#x200B;新增。
+
+只建議將符合輸出工作流程鎖定目標條件的潛在客戶提供給其CRM所有者。 若要檢閱建議，請開啟&#x200B;**[!UICONTROL 工作]** > **[!UICONTROL 代理程式建議]**。 請參閱[從行銷重點取得建議](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights)和[代理程式建議](tasks.md#agent-suggestions)。
+
+## 現有webhook設定 {#existing-webhook-setups}
+
+下列指示說明先前的webhook設定。 **[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟不需要這些步驟。 如果您的組織已使用webhook，請先與您的Marketo管理員和Adobe聯絡人合作，再變更該設定。
+
++++Webhook設定指示
+
+這些指示需要存取Adobe Developer Console和Marketo Engage中的&#x200B;**[!UICONTROL 管理員]**。
+
+### A部分：建立API認證 {#part-a-create-api-credentials}
 
 這些認證可讓[!DNL Marketo]安全地向Marketo Qualifier進行驗證。
 
@@ -59,14 +92,14 @@ ht-degree: 1%
    **[!UICONTROL OAuth伺服器對伺服器]**&#x200B;可讓[!DNL Marketo]直接從伺服器呼叫Marketo Qualifier API，而不需要人員登入。
 
 1. 輸入45個字元或更少的認證名稱，例如`Marketo Qualifier Marketing Highlights Creds`。
-1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API **。**
+1. 若要關聯產品設定檔，請選取該設定檔，然後選取[儲存]設定的API ]**。**[!UICONTROL 
 1. 在&#x200B;**[!UICONTROL 連線的認證]**&#x200B;底下，開啟&#x200B;**[!UICONTROL OAuth伺服器對伺服器]**&#x200B;認證。 選取&#x200B;**[!UICONTROL 擷取使用者端密碼]**，然後複製&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;和&#x200B;**[!UICONTROL 使用者端密碼]**。 您在[Part C](#part-c-configure-the-marketo-webhook)中使用這些值。
 
 >[!WARNING]
 >
 >將使用者端密碼設為私人。 將其視為密碼，請勿透過電子郵件傳送。 使用您組織核准的安全頻道，與設定webhook的人共用它。
 
-## B部分：收集您的端點與識別碼 {#part-b-gather-your-endpoint-and-identifiers}
+### B部分：收集您的端點與識別碼 {#part-b-gather-your-endpoint-and-identifiers}
 
 您需要[Part C](#part-c-configure-the-marketo-webhook)的三個值：
 
@@ -84,7 +117,7 @@ ht-degree: 1%
 
 如果您不確定自己的地區、imsOrg ID或沙箱名稱，您的Adobe聯絡人可以確認。
 
-## C部分：設定Marketo webhook {#part-c-configure-the-marketo-webhook}
+### C部分：設定Marketo webhook {#part-c-configure-the-marketo-webhook}
 
 若要建立webhook：
 
@@ -171,7 +204,7 @@ ht-degree: 1%
 
 1. 選取「**[!UICONTROL 儲存]**」。
 
-## D部分：將webhook新增至觸發器Smart Campaign {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
+### D部分：將webhook新增至觸發器Smart Campaign {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
 將&#x200B;**[!UICONTROL 呼叫Webhook]**&#x200B;流程步驟新增至觸發智慧行銷活動（現有行銷活動或新行銷活動）。 智慧清單會在該行銷活動中觸發，以決定要將哪些活動傳送至Marketo Qualifier。
 
@@ -183,6 +216,8 @@ ht-degree: 1%
 1. 啟動Smart Campaign。
 
 該Smart Campaign的活動現在流入Marketo Qualifier。 代表可以在&#x200B;**[!UICONTROL 潛在客戶]** > **[!UICONTROL 行銷重點專案]**&#x200B;上檢視並篩選此活動。
+
++++
 
 >[!MORELIKETHIS]
 >

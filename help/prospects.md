@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1058'
 ht-degree: 1%
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 * 在連線的CRM中指派給您的&#x200B;**[!UICONTROL 銷售機會]**&#x200B;銷售機會。
 * **[!UICONTROL 連絡人]**&#x200B;在連線的CRM中指派給您的連絡人及其關聯帳戶。 聯絡詳細資料也包含擁有者姓名。 這些詳細資料適用於Salesforce和Microsoft Dynamics 365。
-* **[!UICONTROL 行銷重點]**&#x200B;具有即時Marketo活動（例如電子郵件開啟或點按）的潛在客戶。
+* **[!UICONTROL 行銷重點專案]**&#x200B;由Marketo Engage觸發程式或批次智慧行銷活動傳送的潛在客戶，包括電子郵件開啟或點按等參與專案。
 * **[!UICONTROL 人員清單]**&#x200B;您手動匯入或新增的潛在客戶。
 
 ## 檢閱潛在客戶內容並匯出清單
@@ -97,16 +97,16 @@ ht-degree: 1%
 
 ### 依行銷重點篩選
 
-透過潛在客戶的即時[!DNL Marketo]參與（例如電子郵件活動、網站造訪和表單填寫）來檢閱並排定其優先順序。 參與幾乎會即時出現。
+檢閱由[!DNL Marketo Engage]傳送的潛在客戶並排定其優先順序，包括電子郵件活動、網站造訪及表單填寫。 觸發行銷活動在發生時傳送參與，批次行銷活動在每次執行時傳送合格銷售機會。
 
 若要依行銷重點篩選潛在客戶：
 
 1. 選取&#x200B;**[!UICONTROL 篩選器]**。
 1. 新增行銷重點篩選並設定活動型別、行銷活動或其他屬性，以聚焦於重要的參與。
 
-每個潛在客戶都會顯示其最新的[!DNL Marketo]活動以及最近的歷史記錄。
+每個潛在客戶都會顯示其最新的[!DNL Marketo]活動以及最近的歷史記錄。 活動可顯示潛在客戶到達的方式，例如&#x200B;**[!UICONTROL 從批次行銷活動]**&#x200B;新增。
 
-行銷重點適用於所有生產區域。 管理員完成一次性設定，將[!DNL Marketo]連線至Marketo Qualifier。 請參閱[設定行銷重點專案](integrations.md#turn-on-marketo-engagement-filtering)。
+行銷重點適用於所有生產區域。 若要透過&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟來傳送銷售機會，請參閱[設定行銷重點](marketing-highlights-setup.md)。
 
 ## 檢閱潛在客戶詳細資訊
 

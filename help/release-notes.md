@@ -9,15 +9,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '821'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 發行說明
 
 ## 2026年11月發行版本
 
+* 將&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟新增至任何觸發程式或批次Smart Campaign，將銷售機會從[!DNL Marketo Engage]傳送至[!DNL Marketo Qualifier]，且沒有要設定的webhook或API認證。 系統會建議符合「傳出工作流程」的潛在客戶給其擁有者複查。 [了解更多](marketing-highlights-setup.md)。
 * 以淺顯的語言描述您想要聯絡的人，並將其轉換為CRM銷售機會和聯絡人篩選器，在傳出工作流程定位中使用每個銷售機會和聯絡人篩選器，並在儲存之前預覽相符的潛在客戶。 [了解更多](outbound-workflows.md#step-2-configure-targeting-filters)。
 * 在文字欄位（例如「職稱」和「電子郵件」）中一次篩選多個值的潛在客戶，每個篩選器最多可有五個值。 [了解更多](prospects.md#filter-and-find-prospects)。
 * 直接從輸出工作流程檢閱、編輯和傳送潛在客戶回覆的AI草稿回覆，或拒絕不符合的草稿。 [了解更多](outbound-workflows.md#review-and-send-ai-draft-replies)。
@@ -43,7 +44,7 @@ ht-degree: 10%
 
 * 在內嵌CRM外掛程式中檢視[!DNL Marketo Sales Insights]和代理程式資料，並將潛在客戶新增至[!DNL Marketo Qualifier]。 [了解更多](admin-settings.md#crm-mcp-and-the-embedded-plugin)。
 * 使用Best Bets、我的觀察清單、網路活動、電子郵件參與和網路研討會活動來排定CRM銷售機會的優先順序。 [了解更多](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
-* 當潛在客戶的上線[!DNL Marketo]活動符合工作流程條件時，自動將潛在客戶註冊到外站工作流程。 [了解更多](home.md#automatically-enroll-prospects-from-marketing-highlights)。
+* 針對其[!DNL Marketo]活動符合輸出工作流程的目標定位條件的潛在客戶取得建議。 在註冊和外聯之前，所屬的代表會稽核和核准潛在客戶。 [了解更多](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights)。
 * 檢閱潛在客戶內容並匯出潛在客戶清單，以及在[!DNL Marketo Optimizer]個Prime和Ultimate執行個體上檢視AI人員摘要。 [了解更多](prospects.md#review-prospect-context-and-export-the-list)。
 * 審查並核准從工作佇列產生的潛在客戶電子郵件，並在傳出工作流程期間以代理程式建議回覆。 [了解更多](tasks.md)。
 
