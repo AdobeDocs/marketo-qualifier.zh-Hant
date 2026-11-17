@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1517'
 ht-degree: 0%
 ---
 
@@ -186,7 +186,7 @@ Activity Sync會將Marketo Qualifier外聯活動寫入您的CRM和Marketo。 已
 
 行銷重點可讓代表透過其即時[!DNL Marketo]參與（例如電子郵件開啟和點按），尋找潛在客戶並安排其優先順序。 請參閱[依行銷重點篩選](prospects.md#filter-by-marketing-highlights)。
 
-管理員完成一次性設定，將[!DNL Marketo]連線到相關組織和沙箱的Marketo Qualifier。 此設定涵蓋在Adobe Developer Console中建立API認證、在[!DNL Marketo]中設定webhook，以及將該webhook新增至觸發程式Smart Campaign。 如需完整步驟，請參閱[設定行銷重點專案](marketing-highlights-setup.md)。
+在[!DNL Marketo Engage]中將&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟新增至觸發器或批次Smart Campaign，以傳送符合資格的銷售機會，且沒有要設定的webhook或API認證。 如需必要條件和步驟，請參閱[設定行銷重點專案](marketing-highlights-setup.md)。
 
 行銷重點適用於所有生產區域：北美、歐洲、中東和非洲及澳洲。
 

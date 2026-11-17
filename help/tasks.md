@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 0%
 ## 代理程式建議
 
 **[!UICONTROL 代理程式建議]**&#x200B;索引標籤會列出使用完整設定的[輸出工作流程目標定位篩選器](outbound-workflows.md#step-2-configure-targeting-filters)來建議註冊的潛在客戶。 若要開啟建議，請參閱[輸出工作流程](outbound-workflows.md)。
+
+從[!DNL Marketo Engage]傳送並具有&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟的潛在客戶只要符合傳出工作流程的鎖定目標條件，也可以顯示在這裡。 每個潛在客戶僅建議將其在已連線的Salesforce或Microsoft Dynamics 365 CRM中擁有者。 在註冊和外聯之前，擁有者會稽核和核准潛在客戶；從Marketo Engage傳送潛在客戶不會自動註冊。 請參閱[設定行銷重點專案](marketing-highlights-setup.md)。
 
 若要在工作面板中檢閱建議，請選取建議：
 

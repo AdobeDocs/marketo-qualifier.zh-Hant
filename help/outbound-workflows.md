@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3140'
 ht-degree: 0%
 ---
 
@@ -98,16 +98,19 @@ AI會將目標中的需求準確地保留在產生的接觸點中。 包含確�
 
 所有目標篩選器都會與工作流程一併儲存，並在您新增潛在客戶時自動套用。 [代理程式建議](tasks.md#agent-suggestions)會使用相同的完整篩選器集，因此建議的潛在客戶會符合您的鎖定目標條件。
 
-### 從行銷重點自動註冊潛在客戶
+### 從行銷重點取得建議 {#automatically-enroll-prospects-from-marketing-highlights}
 
-輸出工作流程可以根據其目標定位條件評估即時行銷重點活動。 當活動相符時，[!DNL Marketo Qualifier]會透過電子郵件解析潛在客戶的CRM擁有者，並只將潛在客戶註冊到屬於該代表的合格工作流程中。
+傳出工作流程可以根據其目標定位條件，評估行銷重點的銷售線索和活動。 透過[!DNL Marketo Engage]中的&#x200B;**[!UICONTROL 傳送至Marketo Qualifier]**&#x200B;流程步驟，從觸發程式或批次Smart Campaign傳送銷售機會。 請參閱[設定行銷重點專案](marketing-highlights-setup.md)。
 
-自動註冊遵循下列順序：
+當條件相符時，[!DNL Marketo Qualifier]會從Salesforce或Microsoft Dynamics 365中解析銷售機會的擁有者，並只將該銷售機會推薦給該代表。 銷售機會不會自動註冊。
+
+建議會遵循此順序：
 
 1. 代表會定義工作流程的目標定位條件。
-1. 即時[!DNL Marketo]活動到達潛在客戶。
-1. [!DNL Marketo Qualifier]從Salesforce或Microsoft Dynamics解析潛在客戶的所有者，並根據該所有者的合格工作流程評估活動。
-1. 當標準符合時，潛在客戶會註冊並開始外聯。
+1. 銷售機會從Marketo Engage Smart Campaign到達行銷重點區域。
+1. Marketo Qualifier會將銷售機會與其擁有者比對，並根據擁有者的合格工作流程評估銷售機會和活動。
+1. 當條件符合時，擁有者會在&#x200B;**[!UICONTROL 工作]** > **[!UICONTROL 代理程式建議]**&#x200B;中收到建議。
+1. 擁有者檢閱推薦的潛在客戶並產生電子郵件，然後在開始外展之前[核准並註冊潛在客戶](#approve-and-enroll-prospects)。
 
 如果其他代表已經在聯絡潛在客戶，[!DNL Marketo Qualifier]會在重複的外聯開始之前顯示警告。
 
